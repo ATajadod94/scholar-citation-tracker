@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholar Citation Tracker — Negar Arabzadeh</title>
+    <meta name="description" content="Real-time citation tracking dashboard for Negar Arabzadeh's Google Scholar profile">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+    <style>
+        :root {
+            --primary: #667eea;
+            --primary-dark: #5a67d8;
+            --secondary: #764ba2;
+            --bg: #0f0f23;
+            --bg-card: #1a1a2e;
+            --bg-card-hover: #1f1f35;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --text-dim: #64748b;
+            --border: #2d2d44;
+            --success: #48bb78;
+            --success-bg: rgba(72, 187, 120, 0.1);
+            --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Animated background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(102, 126, 234, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(118, 75, 162, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(102, 126, 234, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+        }
+
+        .header-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(102, 126, 234, 0.15);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .header-badge .dot {
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .header .affiliation {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-top: 4px;
+        }
+
+        .header .scholar-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 15px;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .header .scholar-link:hover {
+            opacity: 0.8;
+        }
+
+        /* Alert banner */
+        .alert-banner {
+            background: var(--success-bg);
+            border: 1px solid rgba(72, 187, 120, 0.3);
+            border-radius: 12px;
+            padding: 16px 24px;
+            margin-bottom: 24px;
+            display: none;
+            align-items: center;
+            gap: 12px;
+            animation: slideDown 0.5s ease;
+        }
+
+        .alert-banner.visible {
+            display: flex;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .alert-banner .alert-icon {
+            font-size: 24px;
+        }
+
+        .alert-banner .alert-text {
+            font-size: 15px;
+            color: var(--success);
+            font-weight: 500;
+        }
+
+        .alert-banner .alert-text span {
+            font-weight: 700;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .stat-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .stat-card:hover::before {
+            opacity: 1;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-dim);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--text);
+            line-height: 1;
+        }
+
+        .stat-change {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--success);
+            background: var(--success-bg);
+            padding: 2px 10px;
+            border-radius: 12px;
+        }
+
+        /* Chart Section */
+        .chart-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 30px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .section-subtitle {
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+
+        /* Articles Table */
+        .articles-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 30px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 16px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 14px;
+            font-family: inherit;
+            margin-bottom: 16px;
+            transition: border-color 0.2s;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .search-box::placeholder {
+            color: var(--text-dim);
+        }
+
+        .articles-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .articles-table thead th {
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .articles-table thead th.right {
+            text-align: right;
+        }
+
+        .articles-table tbody tr {
+            transition: background 0.2s;
+        }
+
+        .articles-table tbody tr:hover {
+            background: rgba(102, 126, 234, 0.05);
+        }
+
+        .articles-table tbody td {
+            padding: 14px 16px;
+            border-bottom: 1px solid rgba(45, 45, 68, 0.5);
+            font-size: 14px;
+        }
+
+        .articles-table tbody td.right {
+            text-align: right;
+        }
+
+        .article-title {
+            color: var(--text);
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .article-title a:hover {
+            color: var(--primary);
+        }
+
+        .article-authors {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-top: 4px;
+        }
+
+        .article-year {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .citation-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 40px;
+            padding: 4px 12px;
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--primary);
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 8px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: inherit;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .pagination .page-info {
+            font-size: 13px;
+            color: var(--text-dim);
+            padding: 0 10px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-dim);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer .last-updated {
+            margin-top: 6px;
+            font-size: 12px;
+        }
+
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-dim);
+        }
+
+        .loading .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Error state */
+        .error-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-dim);
+        }
+
+        .error-state .error-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 12px;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .stat-card {
+                padding: 16px;
+            }
+
+            .stat-value {
+                font-size: 1.6rem;
+            }
+
+            .chart-container {
+                height: 220px;
+            }
+
+            .articles-table thead th:nth-child(3),
+            .articles-table tbody td:nth-child(3) {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.4rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-badge">
+            <span class="dot"></span>
+            Automated Citation Monitoring
+        </div>
+        <h1 id="scholar-name">Scholar Citation Tracker</h1>
+        <p class="subtitle" id="scholar-affiliation">Loading profile data…</p>
+        <a class="scholar-link" id="scholar-link" href="#" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View on Google Scholar
+        </a>
+    </header>
+
+    <!-- Alert Banner -->
+    <div class="alert-banner" id="alert-banner">
+        <span class="alert-icon">🎉</span>
+        <span class="alert-text" id="alert-text"></span>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-grid" id="stats-grid">
+        <div class="stat-card">
+            <div class="stat-label">Total Citations</div>
+            <div class="stat-value" id="stat-citations">—</div>
+            <div class="stat-change" id="stat-citations-change" style="display:none"></div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">h-index</div>
+            <div class="stat-value" id="stat-hindex">—</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">i10-index</div>
+            <div class="stat-value" id="stat-i10">—</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">Publications</div>
+            <div class="stat-value" id="stat-pubs">—</div>
+        </div>
+    </div>
+
+    <!-- Citation History Chart -->
+    <div class="chart-section">
+        <div class="section-header">
+            <div>
+                <div class="section-title">Citation Growth</div>
+                <div class="section-subtitle">Historical citation count over time</div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="citation-chart"></canvas>
+        </div>
+    </div>
+
+    <!-- Articles Table -->
+    <div class="articles-section">
+        <div class="section-header">
+            <div>
+                <div class="section-title">Publications</div>
+                <div class="section-subtitle" id="articles-count">Sorted by citation count</div>
+            </div>
+        </div>
+        <input type="text" class="search-box" id="search-box" placeholder="Search publications…">
+        <table class="articles-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Authors</th>
+                    <th class="right">Citations</th>
+                </tr>
+            </thead>
+            <tbody id="articles-body">
+                <tr>
+                    <td colspan="4" class="loading">
+                        <div class="spinner"></div>
+                        Loading publications…
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination" id="pagination" style="display:none">
+            <button id="prev-btn" disabled>← Previous</button>
+            <span class="page-info" id="page-info"></span>
+            <button id="next-btn">Next →</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            Scholar Citation Tracker — Powered by
+            <a href="https://github.com" target="_blank">GitHub Actions</a> &
+            <a href="https://serpapi.com" target="_blank">SerpAPI</a>
+        </p>
+        <p class="last-updated" id="last-updated">Last updated: —</p>
+    </footer>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    const ITEMS_PER_PAGE = 15;
+    let allArticles = [];
+    let filteredArticles = [];
+    let currentPage = 1;
+    let citationChart = null;
+
+    // Format numbers with commas
+    function formatNumber(n) {
+        return n != null ? n.toLocaleString() : '—';
+    }
+
+    // Format date
+    function formatDate(iso) {
+        if (!iso) return '—';
+        const d = new Date(iso);
+        return d.toLocaleDateString('en-US', {
+            year: 'numeric', month: 'short', day: 'numeric',
+            hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+        });
+    }
+
+    // Render stats
+    function renderStats(data) {
+        document.getElementById('scholar-name').textContent = data.name || 'Scholar Citation Tracker';
+        document.getElementById('scholar-affiliation').textContent = data.affiliation || '';
+        document.getElementById('scholar-link').href = data.scholar_url || '#';
+        document.getElementById('stat-citations').textContent = formatNumber(data.total_citations);
+        document.getElementById('stat-hindex').textContent = formatNumber(data.h_index);
+        document.getElementById('stat-i10').textContent = formatNumber(data.i10_index);
+        document.getElementById('stat-pubs').textContent = formatNumber(data.articles ? data.articles.length : 0);
+        document.getElementById('last-updated').textContent = 'Last updated: ' + formatDate(data.last_checked);
+
+        // Show alert if there are recent changes
+        if (data.latest_diff && data.latest_diff.gained > 0) {
+            const banner = document.getElementById('alert-banner');
+            const text = document.getElementById('alert-text');
+            text.innerHTML = `<span>+${data.latest_diff.gained}</span> new citation${data.latest_diff.gained !== 1 ? 's' : ''} detected across <span>${data.latest_diff.articles_count}</span> paper${data.latest_diff.articles_count !== 1 ? 's' : ''}!`;
+            banner.classList.add('visible');
+
+            const changeEl = document.getElementById('stat-citations-change');
+            changeEl.textContent = `↑ +${data.latest_diff.gained}`;
+            changeEl.style.display = 'inline-flex';
+        }
+    }
+
+    // Render citation history chart
+    function renderChart(history) {
+        if (!history || history.length === 0) return;
+
+        const ctx = document.getElementById('citation-chart').getContext('2d');
+
+        const labels = history.map(h => h.date);
+        const values = history.map(h => h.total_citations);
+
+        // Gradient fill
+        const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+        gradient.addColorStop(0, 'rgba(102, 126, 234, 0.3)');
+        gradient.addColorStop(1, 'rgba(102, 126, 234, 0.0)');
+
+        citationChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Total Citations',
+                    data: values,
+                    borderColor: '#667eea',
+                    backgroundColor: gradient,
+                    borderWidth: 2.5,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: history.length > 30 ? 0 : 4,
+                    pointHoverRadius: 6,
+                    pointBackgroundColor: '#667eea',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: {
+                    intersect: false,
+                    mode: 'index',
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#1a1a2e',
+                        titleColor: '#e2e8f0',
+                        bodyColor: '#94a3b8',
+                        borderColor: '#2d2d44',
+                        borderWidth: 1,
+                        padding: 12,
+                        cornerRadius: 8,
+                        displayColors: false,
+                        callbacks: {
+                            title: function(items) {
+                                return new Date(items[0].label).toLocaleDateString('en-US', {
+                                    year: 'numeric', month: 'short', day: 'numeric'
+                                });
+                            },
+                            label: function(item) {
+                                return 'Citations: ' + formatNumber(item.raw);
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        type: 'time',
+                        time: {
+                            unit: history.length > 60 ? 'month' : 'week',
+                            displayFormats: {
+                                week: 'MMM d',
+                                month: 'MMM yyyy'
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(45, 45, 68, 0.5)',
+                            drawBorder: false,
+                        },
+                        ticks: {
+                            color: '#64748b',
+                            font: { size: 11 },
+                            maxTicksLimit: 8,
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: 'rgba(45, 45, 68, 0.5)',
+                            drawBorder: false,
+                        },
+                        ticks: {
+                            color: '#64748b',
+                            font: { size: 11 },
+                            callback: function(value) {
+                                return formatNumber(value);
+                            }
+                        },
+                        beginAtZero: false,
+                    }
+                }
+            }
+        });
+    }
+
+    // Render articles table
+    function renderArticles() {
+        const tbody = document.getElementById('articles-body');
+        const start = (currentPage - 1) * ITEMS_PER_PAGE;
+        const end = start + ITEMS_PER_PAGE;
+        const pageArticles = filteredArticles.slice(start, end);
+
+        if (pageArticles.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:40px; color:var(--text-dim);">No publications found.</td></tr>';
+            document.getElementById('pagination').style.display = 'none';
+            return;
+        }
+
+        tbody.innerHTML = pageArticles.map(a => `
+            <tr>
+                <td>
+                    <div class="article-title">
+                        ${a.link ? `<a href="${a.link}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>` : escapeHtml(a.title)}
+                    </div>
+                </td>
+                <td><span class="article-year">${a.year || '—'}</span></td>
+                <td><span class="article-authors">${escapeHtml(truncate(a.authors || '', 60))}</span></td>
+                <td class="right"><span class="citation-badge">${formatNumber(a.citation_count)}</span></td>
+            </tr>
+        `).join('');
+
+        // Pagination
+        const totalPages = Math.ceil(filteredArticles.length / ITEMS_PER_PAGE);
+        const pagination = document.getElementById('pagination');
+        const pageInfo = document.getElementById('page-info');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+
+        if (totalPages > 1) {
+            pagination.style.display = 'flex';
+            pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+            prevBtn.disabled = currentPage <= 1;
+            nextBtn.disabled = currentPage >= totalPages;
+        } else {
+            pagination.style.display = 'none';
+        }
+    }
+
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    function truncate(str, len) {
+        return str.length > len ? str.substring(0, len) + '…' : str;
+    }
+
+    // Event listeners
+    document.getElementById('search-box').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        filteredArticles = query
+            ? allArticles.filter(a =>
+                (a.title || '').toLowerCase().includes(query) ||
+                (a.authors || '').toLowerCase().includes(query) ||
+                (a.year || '').toString().includes(query)
+            )
+            : [...allArticles];
+        currentPage = 1;
+        document.getElementById('articles-count').textContent =
+            `Showing ${filteredArticles.length} of ${allArticles.length} publications`;
+        renderArticles();
+    });
+
+    document.getElementById('prev-btn').addEventListener('click', function() {
+        if (currentPage > 1) {
+            currentPage--;
+            renderArticles();
+        }
+    });
+
+    document.getElementById('next-btn').addEventListener('click', function() {
+        const totalPages = Math.ceil(filteredArticles.length / ITEMS_PER_PAGE);
+        if (currentPage < totalPages) {
+            currentPage++;
+            renderArticles();
+        }
+    });
+
+    // Load data
+    async function init() {
+        try {
+            const resp = await fetch('data.json?t=' + Date.now());
+            if (!resp.ok) throw new Error('Failed to load data');
+            const data = await resp.json();
+
+            renderStats(data);
+
+            // Sort articles by citation count
+            allArticles = (data.articles || []).sort((a, b) =>
+                (b.citation_count || 0) - (a.citation_count || 0)
+            );
+            filteredArticles = [...allArticles];
+            document.getElementById('articles-count').textContent =
+                `${allArticles.length} publications sorted by citation count`;
+            renderArticles();
+
+            renderChart(data.history || []);
+
+        } catch (err) {
+            console.error('Failed to load data:', err);
+            document.getElementById('articles-body').innerHTML = `
+                <tr><td colspan="4" class="error-state">
+                    <div class="error-icon">📊</div>
+                    <p>No data available yet.</p>
+                    <p style="margin-top:8px; font-size:13px;">
+                        The citation tracker will populate this dashboard after its first run.<br>
+                        Trigger the GitHub Action manually or wait for the next scheduled check.
+                    </p>
+                </td></tr>
+            `;
+        }
+    }
+
+    init();
+})();
+</script>
+
+</body>
+</html>
