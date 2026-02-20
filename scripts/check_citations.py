@@ -175,12 +175,14 @@ def compute_diff(old_data: dict, profile: dict, articles: list) -> dict:
     for a in articles:
         title = a.get("title", "").strip()
         key = title.lower()
-        new_count = a.get("cited_by", {}).get("value", 0) if isinstance(a.get("cited_by"), dict) else 0
+        raw_cited = a.get("cited_by")
+        new_count = raw_cited.get("value", 0) if isinstance(raw_cited, dict) else 0
+        new_count = new_count if isinstance(new_count, (int, float)) and new_count is not None else 0
         old_article = old_articles_map.get(key)
         old_count = 0
         if old_article:
-            old_count = old_article.get("citation_count", 0)
-        if new_count > old_count:
+            old_count = old_article.get("citation_count", 0) or 0
+        if int(new_count) > int(old_count):
             new_citations_articles.append({
                 "title": title,
                 "old_count": old_count,
@@ -432,7 +434,7 @@ def main():
         "articles": [
             {
                 "title": a.get("title", ""),
-                "citation_count": a.get("cited_by", {}).get("value", 0) if isinstance(a.get("cited_by"), dict) else 0,
+                "citation_count": (a.get("cited_by", {}).get("value", 0) if isinstance(a.get("cited_by"), dict) else 0) or 0,
                 "year": a.get("year", ""),
                 "link": a.get("link", ""),
                 "authors": a.get("authors", ""),
