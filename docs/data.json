@@ -5,7 +5,7 @@
   "total_citations": 1406,
   "h_index": 23,
   "i10_index": 44,
-  "last_checked": "2026-02-20T18:24:40.971988+00:00",
+  "last_checked": "2026-02-21T02:27:57.370330+00:00",
   "articles": [
     {
       "title": "From Noise to Order: Learning to Rank via Denoising Diffusion",
@@ -364,10 +364,13 @@
       "total_citations": 1406,
       "h_index": 23,
       "i10_index": 44
+    },
+    {
+      "date": "2026-02-21T02:27:57.370330+00:00",
+      "total_citations": 1406,
+      "h_index": 23,
+      "i10_index": 44
     }
   ],
-  "latest_diff": {
-    "gained": 1406,
-    "articles_count": 78
-  }
+  "latest_diff": null
 }
