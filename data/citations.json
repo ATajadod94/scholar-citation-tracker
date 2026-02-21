@@ -2,11 +2,18 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-02-21T02:27:57.370330+00:00",
-  "total_citations": 1406,
+  "last_checked": "2026-02-21T06:51:13.481852+00:00",
+  "total_citations": 1417,
   "h_index": 23,
   "i10_index": 44,
   "articles": [
+    {
+      "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:xtRiw3GOFMkC",
+      "authors": "N Arabzadeh, S Ebrahimi, S Sadeghian, M Hosseini, A Daqiq, HS Le, ..."
+    },
     {
       "title": "From Noise to Order: Learning to Rank via Denoising Diffusion",
       "citation_count": 0,
@@ -51,7 +58,7 @@
     },
     {
       "title": "Building Trustworthy Peer Review Quality Assessment Systems",
-      "citation_count": 0,
+      "citation_count": 1,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:pyW8ca7W8N0C",
       "authors": "N Arabzadeh, S Ebrahimi, A Ghorbanpour, S Sadeghian, S Salamat, M Li, ..."
@@ -93,7 +100,7 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 25,
+      "citation_count": 26,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -114,21 +121,21 @@
     },
     {
       "title": "Gender disentangled representation learning in neural rankers",
-      "citation_count": 1,
+      "citation_count": 2,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:lSLTfruPkqcC",
       "authors": "S Seyedsalehi, S Salamat, N Arabzadeh, S Ebrahimi, M Zihayat, ..."
     },
     {
       "title": "exharmony: Authorship and citations for benchmarking the reviewer assignment problem",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
       "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 61,
+      "citation_count": 60,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -212,7 +219,7 @@
     },
     {
       "title": "Enhanced retrieval effectiveness through selective query generation",
-      "citation_count": 8,
+      "citation_count": 9,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:35N4QoGY0k4C",
       "authors": "SM Hosseini, N Arabzadeh, M Zihayat, E Bagheri"
@@ -282,7 +289,7 @@
     },
     {
       "title": "Adapting standard retrieval benchmarks to evaluate generated answers",
-      "citation_count": 19,
+      "citation_count": 20,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_Qo2XoVZTnwC",
       "authors": "N Arabzadeh, A Bigdeli, CLA Clarke"
@@ -331,7 +338,7 @@
     },
     {
       "title": "Noisy perturbations for estimating query difficulty in dense retrievers",
-      "citation_count": 30,
+      "citation_count": 31,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC",
       "authors": "N Arabzadeh, R Hamidi Rad, M Khodabakhsh, E Bagheri"
@@ -415,7 +422,7 @@
     },
     {
       "title": "Neural Ad-Hoc Retrieval Meets Open Information Extraction",
-      "citation_count": 3,
+      "citation_count": 4,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:QIV2ME_5wuYC",
       "authors": "DT Vo, F Zarrinkalam, B Pham, N Arabzadeh, S Salamat, E Bagheri"
@@ -520,14 +527,14 @@
     },
     {
       "title": "A light-weight strategy for restraining gender biases in neural rankers",
-      "citation_count": 18,
+      "citation_count": 19,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:8k81kl-MbHgC",
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
       "title": "Bias-aware Fair Neural Ranking for Addressing Stereotypical Gender Biases.",
-      "citation_count": 14,
+      "citation_count": 15,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:0EnyYjriUFMC",
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, B Mitra, M Zihayat, E Bagheri"
@@ -562,14 +569,14 @@
     },
     {
       "title": "On the orthogonality of bias and utility in ad hoc retrieval",
-      "citation_count": 25,
+      "citation_count": 26,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC",
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
       "title": "Exploring gender biases in information retrieval relevance judgement datasets",
-      "citation_count": 25,
+      "citation_count": 26,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC",
       "authors": "A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
@@ -645,13 +652,6 @@
       "authors": "S Ebrahimi, S Sadeghian, A Ghorbanpour, N Arabzadeh, S Salamat, ..."
     },
     {
-      "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
-      "citation_count": 0,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:xtRiw3GOFMkC",
-      "authors": "N Arabzadeh, S Ebrahimi, S Sadeghian, M Hosseini, A Daqiq, HS Le, ..."
-    },
-    {
       "title": "Towards Automatically Optimizing Retrieval Augmented AI Systems",
       "citation_count": 0,
       "year": "",
@@ -683,6 +683,12 @@
     {
       "date": "2026-02-21T02:27:57.370330+00:00",
       "total_citations": 1406,
+      "h_index": 23,
+      "i10_index": 44
+    },
+    {
+      "date": "2026-02-21T06:51:13.481852+00:00",
+      "total_citations": 1417,
       "h_index": 23,
       "i10_index": 44
     }
