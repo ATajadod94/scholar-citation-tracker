@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1417,
+  "total_citations": 1421,
   "h_index": 23,
   "i10_index": 44,
-  "last_checked": "2026-02-22T13:00:56.840069+00:00",
+  "last_checked": "2026-02-22T18:42:33.133542+00:00",
   "articles": [
     {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Query performance prediction: Theory, techniques and applications",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:3s1wT3WcHBgC",
       "authors": "N Arabzadeh, C Meng, M Aliannejadi, E Bagheri"
@@ -233,7 +233,7 @@
     },
     {
       "title": "Generative information retrieval evaluation",
-      "citation_count": 42,
+      "citation_count": 43,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
       "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
@@ -289,7 +289,7 @@
     },
     {
       "title": "Adapting standard retrieval benchmarks to evaluate generated answers",
-      "citation_count": 20,
+      "citation_count": 21,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_Qo2XoVZTnwC",
       "authors": "N Arabzadeh, A Bigdeli, CLA Clarke"
@@ -331,7 +331,7 @@
     },
     {
       "title": "Retrieving supporting evidence for generative question answering",
-      "citation_count": 74,
+      "citation_count": 75,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC",
       "authors": "S Huo, N Arabzadeh, C Clarke"
@@ -406,7 +406,16 @@
       "total_citations": 1417,
       "h_index": 23,
       "i10_index": 44
+    },
+    {
+      "date": "2026-02-22T18:42:33.133542+00:00",
+      "total_citations": 1421,
+      "h_index": 23,
+      "i10_index": 44
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 4,
+    "articles_count": 4
+  }
 }
