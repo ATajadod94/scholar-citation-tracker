@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1452,
+  "total_citations": 1457,
   "h_index": 23,
   "i10_index": 46,
-  "last_checked": "2026-02-27T13:10:19.154307+00:00",
+  "last_checked": "2026-02-27T18:53:13.150212+00:00",
   "articles": [
     {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
@@ -100,7 +100,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 18,
+      "citation_count": 19,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -142,7 +142,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 65,
+      "citation_count": 66,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -170,7 +170,7 @@
     },
     {
       "title": "Understanding and Mitigating Gender Bias in Information Retrieval Systems",
-      "citation_count": 1,
+      "citation_count": 2,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:pqnbT2bcN3wC",
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, B AlMousawi, Z Marshall, ..."
@@ -212,7 +212,7 @@
     },
     {
       "title": "Assessing and verifying task utility in LLM-powered applications",
-      "citation_count": 21,
+      "citation_count": 22,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
       "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
@@ -233,7 +233,7 @@
     },
     {
       "title": "Generative information retrieval evaluation",
-      "citation_count": 44,
+      "citation_count": 45,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
       "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
@@ -526,7 +526,16 @@
       "total_citations": 1452,
       "h_index": 23,
       "i10_index": 46
+    },
+    {
+      "date": "2026-02-27T18:53:13.150212+00:00",
+      "total_citations": 1457,
+      "h_index": 23,
+      "i10_index": 46
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 5,
+    "articles_count": 4
+  }
 }
