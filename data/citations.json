@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-02T02:35:24.907329+00:00",
-  "total_citations": 1460,
+  "last_checked": "2026-03-02T07:05:31.517930+00:00",
+  "total_citations": 1462,
   "h_index": 23,
   "i10_index": 46,
   "articles": [
@@ -142,7 +142,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 67,
+      "citation_count": 68,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -555,7 +555,7 @@
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 69,
+      "citation_count": 70,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
       "authors": "N Arabzadeh, X Yan, CLA Clarke"
@@ -899,6 +899,12 @@
     {
       "date": "2026-03-02T02:35:24.907329+00:00",
       "total_citations": 1460,
+      "h_index": 23,
+      "i10_index": 46
+    },
+    {
+      "date": "2026-03-02T07:05:31.517930+00:00",
+      "total_citations": 1462,
       "h_index": 23,
       "i10_index": 46
     }
