@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1462,
+  "total_citations": 1464,
   "h_index": 23,
   "i10_index": 46,
-  "last_checked": "2026-03-03T19:04:45.059697+00:00",
+  "last_checked": "2026-03-04T02:30:39.580250+00:00",
   "articles": [
     {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
@@ -107,7 +107,7 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 27,
+      "citation_count": 28,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -142,7 +142,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 68,
+      "citation_count": 69,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -628,7 +628,16 @@
       "total_citations": 1462,
       "h_index": 23,
       "i10_index": 46
+    },
+    {
+      "date": "2026-03-04T02:30:39.580250+00:00",
+      "total_citations": 1464,
+      "h_index": 23,
+      "i10_index": 46
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 2,
+    "articles_count": 2
+  }
 }
