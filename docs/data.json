@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1466,
-  "h_index": 23,
-  "i10_index": 47,
-  "last_checked": "2026-03-05T13:12:25.985817+00:00",
+  "total_citations": 0,
+  "h_index": 0,
+  "i10_index": 0,
+  "last_checked": "2026-03-05T19:20:17.216773+00:00",
   "articles": [
     {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
@@ -670,6 +670,12 @@
       "total_citations": 1466,
       "h_index": 23,
       "i10_index": 47
+    },
+    {
+      "date": "2026-03-05T19:20:17.216773+00:00",
+      "total_citations": 0,
+      "h_index": 0,
+      "i10_index": 0
     }
   ],
   "latest_diff": null
