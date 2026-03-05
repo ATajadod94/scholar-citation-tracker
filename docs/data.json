@@ -5,7 +5,7 @@
   "total_citations": 1466,
   "h_index": 23,
   "i10_index": 47,
-  "last_checked": "2026-03-05T07:00:09.621190+00:00",
+  "last_checked": "2026-03-05T13:12:25.985817+00:00",
   "articles": [
     {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
@@ -661,6 +661,12 @@
     },
     {
       "date": "2026-03-05T07:00:09.621190+00:00",
+      "total_citations": 1466,
+      "h_index": 23,
+      "i10_index": 47
+    },
+    {
+      "date": "2026-03-05T13:12:25.985817+00:00",
       "total_citations": 1466,
       "h_index": 23,
       "i10_index": 47
