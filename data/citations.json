@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-06T02:31:37.600702+00:00",
-  "total_citations": 1466,
+  "last_checked": "2026-03-06T06:57:59.141137+00:00",
+  "total_citations": 1469,
   "h_index": 23,
   "i10_index": 47,
   "articles": [
@@ -12,7 +12,7 @@
       "citation_count": 0,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:xtRiw3GOFMkC",
-      "authors": "N Arabzadeh, S Ebrahimi, S Sadeghian, M Hosseini, A Daqiq, HS Le, ..."
+      "authors": "N Arabzadeh, S Ebrahimi, S Sadeghian, SM Hosseini, A Daqiq, HS Le, ..."
     },
     {
       "title": "Learning Context-aware Term Importance for Query Performance Prediction",
@@ -37,7 +37,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 10,
+      "citation_count": 11,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -142,7 +142,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 69,
+      "citation_count": 70,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -254,7 +254,7 @@
     },
     {
       "title": "A comparison of methods for evaluating generative ir",
-      "citation_count": 25,
+      "citation_count": 26,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:BqipwSGYUEgC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -995,6 +995,12 @@
     {
       "date": "2026-03-06T02:31:37.600702+00:00",
       "total_citations": 1466,
+      "h_index": 23,
+      "i10_index": 47
+    },
+    {
+      "date": "2026-03-06T06:57:59.141137+00:00",
+      "total_citations": 1469,
       "h_index": 23,
       "i10_index": 47
     }
