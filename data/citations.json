@@ -2,7 +2,7 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-08T18:41:47.736430+00:00",
+  "last_checked": "2026-03-09T02:39:00.856468+00:00",
   "total_citations": 1473,
   "h_index": 23,
   "i10_index": 47,
@@ -79,7 +79,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 11,
+      "citation_count": 12,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -142,7 +142,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 70,
+      "citation_count": 69,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -1060,6 +1060,12 @@
     },
     {
       "date": "2026-03-08T18:41:47.736430+00:00",
+      "total_citations": 1473,
+      "h_index": 23,
+      "i10_index": 47
+    },
+    {
+      "date": "2026-03-09T02:39:00.856468+00:00",
       "total_citations": 1473,
       "h_index": 23,
       "i10_index": 47
