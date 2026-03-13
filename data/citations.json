@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-12T19:00:58.403806+00:00",
-  "total_citations": 1476,
+  "last_checked": "2026-03-13T02:33:20.518803+00:00",
+  "total_citations": 1482,
   "h_index": 23,
   "i10_index": 47,
   "articles": [
@@ -37,7 +37,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 14,
+      "citation_count": 15,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -79,7 +79,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 12,
+      "citation_count": 14,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -100,14 +100,14 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 20,
+      "citation_count": 21,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 28,
+      "citation_count": 29,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -142,7 +142,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 70,
+      "citation_count": 71,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -1157,6 +1157,12 @@
     {
       "date": "2026-03-12T19:00:58.403806+00:00",
       "total_citations": 1476,
+      "h_index": 23,
+      "i10_index": 47
+    },
+    {
+      "date": "2026-03-13T02:33:20.518803+00:00",
+      "total_citations": 1482,
       "h_index": 23,
       "i10_index": 47
     }
