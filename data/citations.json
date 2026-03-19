@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-19T13:17:22.196805+00:00",
-  "total_citations": 1491,
+  "last_checked": "2026-03-19T19:05:27.391287+00:00",
+  "total_citations": 1492,
   "h_index": 23,
   "i10_index": 47,
   "articles": [
@@ -37,7 +37,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 16,
+      "citation_count": 17,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -1319,6 +1319,12 @@
     {
       "date": "2026-03-19T13:17:22.196805+00:00",
       "total_citations": 1491,
+      "h_index": 23,
+      "i10_index": 47
+    },
+    {
+      "date": "2026-03-19T19:05:27.391287+00:00",
+      "total_citations": 1492,
       "h_index": 23,
       "i10_index": 47
     }
