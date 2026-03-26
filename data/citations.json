@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-26T13:40:52.922089+00:00",
-  "total_citations": 1498,
+  "last_checked": "2026-03-26T19:15:20.583263+00:00",
+  "total_citations": 1500,
   "h_index": 23,
   "i10_index": 47,
   "articles": [
@@ -30,7 +30,7 @@
     },
     {
       "title": "Adversarial Attacks against Neural Ranking Models via In-Context Learning",
-      "citation_count": 4,
+      "citation_count": 5,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:dfsIfKJdRG4C",
       "authors": "A Bigdeli, N Arabzadeh, E Bagheri, CLA Clarke"
@@ -555,7 +555,7 @@
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 71,
+      "citation_count": 72,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
       "authors": "N Arabzadeh, X Yan, CLA Clarke"
@@ -1487,6 +1487,12 @@
     {
       "date": "2026-03-26T13:40:52.922089+00:00",
       "total_citations": 1498,
+      "h_index": 23,
+      "i10_index": 47
+    },
+    {
+      "date": "2026-03-26T19:15:20.583263+00:00",
+      "total_citations": 1500,
       "h_index": 23,
       "i10_index": 47
     }
