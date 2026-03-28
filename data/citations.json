@@ -2,10 +2,10 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-03-28T07:05:12.485917+00:00",
-  "total_citations": 1500,
+  "last_checked": "2026-03-28T13:05:31.019484+00:00",
+  "total_citations": 1510,
   "h_index": 23,
-  "i10_index": 47,
+  "i10_index": 48,
   "articles": [
     {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
@@ -135,7 +135,7 @@
     },
     {
       "title": "exharmony: Authorship and citations for benchmarking the reviewer assignment problem",
-      "citation_count": 6,
+      "citation_count": 8,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
       "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
@@ -170,7 +170,7 @@
     },
     {
       "title": "Understanding and Mitigating Gender Bias in Information Retrieval Systems",
-      "citation_count": 2,
+      "citation_count": 3,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:pqnbT2bcN3wC",
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, B AlMousawi, Z Marshall, ..."
@@ -240,7 +240,7 @@
     },
     {
       "title": "Report on the search futures workshop at ECIR 2024",
-      "citation_count": 16,
+      "citation_count": 17,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:J_g5lzvAfSwC",
       "authors": "L Azzopardi, CLA Clarke, P Kantor, B Mitra, JR Trippas, Z Ren, ..."
@@ -268,7 +268,7 @@
     },
     {
       "title": "BertPE: a BERT-based pre-retrieval estimator for query performance prediction",
-      "citation_count": 9,
+      "citation_count": 10,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:hMod-77fHWUC",
       "authors": "M Khodabakhsh, F Zarrinkalam, N Arabzadeh"
@@ -282,14 +282,14 @@
     },
     {
       "title": "Laque: Enabling entity search at scale",
-      "citation_count": 8,
+      "citation_count": 9,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:TFP_iSt0sucC",
       "authors": "N Arabzadeh, A Bigdeli, E Bagheri"
     },
     {
       "title": "Adapting standard retrieval benchmarks to evaluate generated answers",
-      "citation_count": 21,
+      "citation_count": 22,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_Qo2XoVZTnwC",
       "authors": "N Arabzadeh, A Bigdeli, CLA Clarke"
@@ -443,7 +443,7 @@
     },
     {
       "title": "Understanding and mitigating gender bias in information retrieval systems",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:9ZlFYXVOiuMC",
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
@@ -499,7 +499,7 @@
     },
     {
       "title": "Gender fairness in information retrieval systems",
-      "citation_count": 23,
+      "citation_count": 24,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Zph67rFs4hoC",
       "authors": "A Bigdeli, N Arabzadeh, S SeyedSalehi, M Zihayat, E Bagheri"
@@ -576,7 +576,7 @@
     },
     {
       "title": "Exploring gender biases in information retrieval relevance judgement datasets",
-      "citation_count": 26,
+      "citation_count": 27,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC",
       "authors": "A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
@@ -1531,6 +1531,12 @@
       "total_citations": 1500,
       "h_index": 23,
       "i10_index": 47
+    },
+    {
+      "date": "2026-03-28T13:05:31.019484+00:00",
+      "total_citations": 1510,
+      "h_index": 23,
+      "i10_index": 48
     }
   ]
 }
