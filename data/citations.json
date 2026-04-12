@@ -2,10 +2,10 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-04-12T13:12:06.877711+00:00",
-  "total_citations": 1559,
-  "h_index": 24,
-  "i10_index": 50,
+  "last_checked": "2026-04-12T18:57:50.258954+00:00",
+  "total_citations": 0,
+  "h_index": 0,
+  "i10_index": 0,
   "articles": [
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 23,
+      "citation_count": 24,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -93,7 +93,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 17,
+      "citation_count": 18,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -317,7 +317,7 @@
     },
     {
       "title": "Learning to jointly transform and rank difficult queries",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:iH-uZ7U-co4C",
       "authors": "A Bigdeli, N Arabzadeh, E Bagheri"
@@ -373,7 +373,7 @@
     },
     {
       "title": "Interactive grounded language understanding in a collaborative environment: Retrospective on iglu 2022 competition",
-      "citation_count": 10,
+      "citation_count": 11,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:mB3voiENLucC",
       "authors": "J Kiseleva, A Skrynnik, A Zholus, S Mohanty, N Arabzadeh, MA Côté, ..."
@@ -506,7 +506,7 @@
     },
     {
       "title": "Addressing gender-related performance disparities in neural rankers",
-      "citation_count": 6,
+      "citation_count": 7,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ULOm3_A8WrAC",
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
@@ -541,14 +541,14 @@
     },
     {
       "title": "A light-weight strategy for restraining gender biases in neural rankers",
-      "citation_count": 19,
+      "citation_count": 20,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:8k81kl-MbHgC",
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
       "title": "Bias-aware Fair Neural Ranking for Addressing Stereotypical Gender Biases.",
-      "citation_count": 15,
+      "citation_count": 16,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:0EnyYjriUFMC",
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, B Mitra, M Zihayat, E Bagheri"
@@ -583,14 +583,14 @@
     },
     {
       "title": "On the orthogonality of bias and utility in ad hoc retrieval",
-      "citation_count": 26,
+      "citation_count": 27,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC",
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
       "title": "Exploring gender biases in information retrieval relevance judgement datasets",
-      "citation_count": 27,
+      "citation_count": 28,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC",
       "authors": "A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
@@ -1665,6 +1665,12 @@
       "total_citations": 1559,
       "h_index": 24,
       "i10_index": 50
+    },
+    {
+      "date": "2026-04-12T18:57:50.258954+00:00",
+      "total_citations": 0,
+      "h_index": 0,
+      "i10_index": 0
     }
   ]
 }
