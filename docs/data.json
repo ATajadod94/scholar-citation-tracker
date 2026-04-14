@@ -5,7 +5,7 @@
   "total_citations": 1571,
   "h_index": 24,
   "i10_index": 50,
-  "last_checked": "2026-04-14T13:56:47.873122+00:00",
+  "last_checked": "2026-04-14T19:24:03.273507+00:00",
   "articles": [
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-13T02:33:20.518803+00:00",
-      "total_citations": 1482,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-13T07:01:47.594696+00:00",
       "total_citations": 1482,
@@ -895,6 +889,12 @@
     },
     {
       "date": "2026-04-14T13:56:47.873122+00:00",
+      "total_citations": 1571,
+      "h_index": 24,
+      "i10_index": 50
+    },
+    {
+      "date": "2026-04-14T19:24:03.273507+00:00",
       "total_citations": 1571,
       "h_index": 24,
       "i10_index": 50
