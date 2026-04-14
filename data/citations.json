@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-04-13T19:20:36.424126+00:00",
-  "total_citations": 1568,
+  "last_checked": "2026-04-14T03:18:08.362135+00:00",
+  "total_citations": 1571,
   "h_index": 24,
   "i10_index": 50,
   "articles": [
@@ -156,7 +156,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 77,
+      "citation_count": 78,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -247,7 +247,7 @@
     },
     {
       "title": "Generative information retrieval evaluation",
-      "citation_count": 46,
+      "citation_count": 47,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
       "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
@@ -261,7 +261,7 @@
     },
     {
       "title": "Ranked list truncation for large language model-based re-ranking",
-      "citation_count": 40,
+      "citation_count": 41,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
       "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
@@ -373,7 +373,7 @@
     },
     {
       "title": "Interactive grounded language understanding in a collaborative environment: Retrospective on iglu 2022 competition",
-      "citation_count": 11,
+      "citation_count": 10,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:mB3voiENLucC",
       "authors": "J Kiseleva, A Skrynnik, A Zholus, S Mohanty, N Arabzadeh, MA Côté, ..."
@@ -562,7 +562,7 @@
     },
     {
       "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
-      "citation_count": 76,
+      "citation_count": 77,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
       "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
@@ -1693,6 +1693,12 @@
     {
       "date": "2026-04-13T19:20:36.424126+00:00",
       "total_citations": 1568,
+      "h_index": 24,
+      "i10_index": 50
+    },
+    {
+      "date": "2026-04-14T03:18:08.362135+00:00",
+      "total_citations": 1571,
       "h_index": 24,
       "i10_index": 50
     }
