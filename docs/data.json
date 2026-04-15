@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1571,
-  "h_index": 24,
-  "i10_index": 50,
-  "last_checked": "2026-04-15T13:50:24.558502+00:00",
+  "total_citations": 0,
+  "h_index": 0,
+  "i10_index": 0,
+  "last_checked": "2026-04-15T19:25:19.504693+00:00",
   "articles": [
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -156,7 +156,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 78,
+      "citation_count": 77,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-14T02:31:16.457228+00:00",
-      "total_citations": 1482,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-14T06:55:35.872067+00:00",
       "total_citations": 1482,
@@ -898,6 +892,12 @@
       "total_citations": 1571,
       "h_index": 24,
       "i10_index": 50
+    },
+    {
+      "date": "2026-04-15T19:25:19.504693+00:00",
+      "total_citations": 0,
+      "h_index": 0,
+      "i10_index": 0
     }
   ],
   "latest_diff": null
