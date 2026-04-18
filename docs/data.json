@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 0,
-  "h_index": 0,
-  "i10_index": 0,
-  "last_checked": "2026-04-18T02:51:02.226046+00:00",
+  "total_citations": 1577,
+  "h_index": 24,
+  "i10_index": 50,
+  "last_checked": "2026-04-18T07:16:31.472118+00:00",
   "articles": [
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Adversarial Attacks against Neural Ranking Models via In-Context Learning",
-      "citation_count": 6,
+      "citation_count": 7,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:dfsIfKJdRG4C",
       "authors": "A Bigdeli, N Arabzadeh, E Bagheri, CLA Clarke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-16T13:24:54.569095+00:00",
-      "total_citations": 1486,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-16T19:11:09.516728+00:00",
       "total_citations": 1491,
@@ -898,7 +892,16 @@
       "total_citations": 0,
       "h_index": 0,
       "i10_index": 0
+    },
+    {
+      "date": "2026-04-18T07:16:31.472118+00:00",
+      "total_citations": 1577,
+      "h_index": 24,
+      "i10_index": 50
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1577,
+    "articles_count": 2
+  }
 }
