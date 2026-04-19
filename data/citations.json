@@ -2,10 +2,10 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-04-19T03:26:13.683354+00:00",
-  "total_citations": 1577,
-  "h_index": 24,
-  "i10_index": 50,
+  "last_checked": "2026-04-19T07:26:50.812408+00:00",
+  "total_citations": 0,
+  "h_index": 0,
+  "i10_index": 0,
   "articles": [
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -1821,6 +1821,12 @@
       "total_citations": 1577,
       "h_index": 24,
       "i10_index": 50
+    },
+    {
+      "date": "2026-04-19T07:26:50.812408+00:00",
+      "total_citations": 0,
+      "h_index": 0,
+      "i10_index": 0
     }
   ]
 }
