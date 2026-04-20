@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-04-20T13:54:17.333291+00:00",
-  "total_citations": 1586,
+  "last_checked": "2026-04-20T19:13:55.225852+00:00",
+  "total_citations": 1593,
   "h_index": 24,
   "i10_index": 51,
   "articles": [
@@ -58,7 +58,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 26,
+      "citation_count": 27,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -121,7 +121,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 25,
+      "citation_count": 27,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -163,7 +163,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 78,
+      "citation_count": 79,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -352,7 +352,7 @@
     },
     {
       "title": "Retrieving supporting evidence for generative question answering",
-      "citation_count": 78,
+      "citation_count": 79,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC",
       "authors": "S Huo, N Arabzadeh, C Clarke"
@@ -576,7 +576,7 @@
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 77,
+      "citation_count": 78,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
       "authors": "N Arabzadeh, X Yan, CLA Clarke"
@@ -625,7 +625,7 @@
     },
     {
       "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 47,
+      "citation_count": 48,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
@@ -1862,6 +1862,12 @@
     {
       "date": "2026-04-20T13:54:17.333291+00:00",
       "total_citations": 1586,
+      "h_index": 24,
+      "i10_index": 51
+    },
+    {
+      "date": "2026-04-20T19:13:55.225852+00:00",
+      "total_citations": 1593,
       "h_index": 24,
       "i10_index": 51
     }
