@@ -5,7 +5,7 @@
   "total_citations": 1593,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-04-20T19:13:55.225852+00:00",
+  "last_checked": "2026-04-21T03:19:39.185203+00:00",
   "articles": [
     {
       "title": "PeerPrism: Peer Evaluation Expertise vs Review-writing AI",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-19T07:04:50.810172+00:00",
-      "total_citations": 1491,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-19T13:17:22.196805+00:00",
       "total_citations": 1491,
@@ -898,10 +892,13 @@
       "total_citations": 1593,
       "h_index": 24,
       "i10_index": 51
+    },
+    {
+      "date": "2026-04-21T03:19:39.185203+00:00",
+      "total_citations": 1593,
+      "h_index": 24,
+      "i10_index": 51
     }
   ],
-  "latest_diff": {
-    "gained": 7,
-    "articles_count": 6
-  }
+  "latest_diff": null
 }
