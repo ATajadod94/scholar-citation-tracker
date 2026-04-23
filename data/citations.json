@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-04-23T08:03:21.104507+00:00",
-  "total_citations": 1592,
+  "last_checked": "2026-04-23T13:57:02.726385+00:00",
+  "total_citations": 1599,
   "h_index": 24,
   "i10_index": 51,
   "articles": [
@@ -58,7 +58,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 27,
+      "citation_count": 28,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -100,7 +100,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 19,
+      "citation_count": 20,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -121,7 +121,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 27,
+      "citation_count": 28,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -156,14 +156,14 @@
     },
     {
       "title": "exharmony: Authorship and citations for benchmarking the reviewer assignment problem",
-      "citation_count": 10,
+      "citation_count": 11,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
       "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 79,
+      "citation_count": 81,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -380,7 +380,7 @@
     },
     {
       "title": "Interactive grounded language understanding in a collaborative environment: Retrospective on iglu 2022 competition",
-      "citation_count": 10,
+      "citation_count": 11,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:mB3voiENLucC",
       "authors": "J Kiseleva, A Skrynnik, A Zholus, S Mohanty, N Arabzadeh, MA Côté, ..."
@@ -604,7 +604,7 @@
     },
     {
       "title": "Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised Query Reformulation",
-      "citation_count": 25,
+      "citation_count": 26,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC",
       "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
@@ -625,7 +625,7 @@
     },
     {
       "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 48,
+      "citation_count": 47,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
@@ -1928,6 +1928,12 @@
     {
       "date": "2026-04-23T08:03:21.104507+00:00",
       "total_citations": 1592,
+      "h_index": 24,
+      "i10_index": 51
+    },
+    {
+      "date": "2026-04-23T13:57:02.726385+00:00",
+      "total_citations": 1599,
       "h_index": 24,
       "i10_index": 51
     }
