@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1628,
+  "total_citations": 1631,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-04-26T03:31:02.859419+00:00",
+  "last_checked": "2026-04-26T07:46:16.408121+00:00",
   "articles": [
     {
       "title": "Peerispect: Claim Verification in Scientific Peer Reviews",
@@ -170,7 +170,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 82,
+      "citation_count": 83,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-24T13:23:43.489084+00:00",
-      "total_citations": 1498,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-24T19:11:36.077957+00:00",
       "total_citations": 1498,
@@ -898,7 +892,16 @@
       "total_citations": 1628,
       "h_index": 24,
       "i10_index": 51
+    },
+    {
+      "date": "2026-04-26T07:46:16.408121+00:00",
+      "total_citations": 1631,
+      "h_index": 24,
+      "i10_index": 51
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 3,
+    "articles_count": 3
+  }
 }
