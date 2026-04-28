@@ -5,7 +5,7 @@
   "total_citations": 1636,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-04-28T14:24:41.779990+00:00",
+  "last_checked": "2026-04-28T19:47:36.345270+00:00",
   "articles": [
     {
       "title": "Peerispect: Claim Verification in Scientific Peer Reviews",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-27T02:50:01.706392+00:00",
-      "total_citations": 1500,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-27T07:16:12.205225+00:00",
       "total_citations": 1500,
@@ -895,6 +889,12 @@
     },
     {
       "date": "2026-04-28T14:24:41.779990+00:00",
+      "total_citations": 1636,
+      "h_index": 24,
+      "i10_index": 51
+    },
+    {
+      "date": "2026-04-28T19:47:36.345270+00:00",
       "total_citations": 1636,
       "h_index": 24,
       "i10_index": 51
