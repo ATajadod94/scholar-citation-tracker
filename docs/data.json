@@ -2,11 +2,18 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1703,
+  "total_citations": 1706,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-05-10T08:13:54.824176+00:00",
+  "last_checked": "2026-05-10T13:39:47.645006+00:00",
   "articles": [
+    {
+      "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:p2g8aNsByqUC",
+      "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
+    },
     {
       "title": "A Reproducibility Study of LLM-Based Query Reformulation",
       "citation_count": 0,
@@ -93,7 +100,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 34,
+      "citation_count": 35,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -349,22 +356,9 @@
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:bEWYMUwI8FkC",
       "authors": "A Saleminezhad, N Arabzadeh, S Beheshti, E Bagheri"
-    },
-    {
-      "title": "Learning to jointly transform and rank difficult queries",
-      "citation_count": 8,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:iH-uZ7U-co4C",
-      "authors": "A Bigdeli, N Arabzadeh, E Bagheri"
     }
   ],
   "history": [
-    {
-      "date": "2026-04-09T07:44:58.453814+00:00",
-      "total_citations": 1550,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-09T13:54:59.357785+00:00",
       "total_citations": 1550,
@@ -898,7 +892,16 @@
       "total_citations": 1703,
       "h_index": 24,
       "i10_index": 51
+    },
+    {
+      "date": "2026-05-10T13:39:47.645006+00:00",
+      "total_citations": 1706,
+      "h_index": 24,
+      "i10_index": 51
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 3,
+    "articles_count": 3
+  }
 }

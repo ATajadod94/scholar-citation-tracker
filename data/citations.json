@@ -2,11 +2,18 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-05-10T08:13:54.824176+00:00",
-  "total_citations": 1703,
+  "last_checked": "2026-05-10T13:39:47.645006+00:00",
+  "total_citations": 1706,
   "h_index": 24,
   "i10_index": 51,
   "articles": [
+    {
+      "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:p2g8aNsByqUC",
+      "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
+    },
     {
       "title": "A Reproducibility Study of LLM-Based Query Reformulation",
       "citation_count": 0,
@@ -93,7 +100,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 34,
+      "citation_count": 35,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -366,7 +373,7 @@
     },
     {
       "title": "Fréchet distance for offline evaluation of information retrieval systems with sparse labels",
-      "citation_count": 15,
+      "citation_count": 16,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:RHpTSmoSYBkC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -408,7 +415,7 @@
     },
     {
       "title": "Interactive grounded language understanding in a collaborative environment: Retrospective on iglu 2022 competition",
-      "citation_count": 10,
+      "citation_count": 11,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:mB3voiENLucC",
       "authors": "J Kiseleva, A Skrynnik, A Zholus, S Mohanty, N Arabzadeh, MA Côté, ..."
@@ -704,7 +711,7 @@
       "title": "Restructuring the Corpus Makes RAG Work for Math",
       "citation_count": 0,
       "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
       "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
     },
     {
@@ -2147,6 +2154,12 @@
     {
       "date": "2026-05-10T08:13:54.824176+00:00",
       "total_citations": 1703,
+      "h_index": 24,
+      "i10_index": 51
+    },
+    {
+      "date": "2026-05-10T13:39:47.645006+00:00",
+      "total_citations": 1706,
       "h_index": 24,
       "i10_index": 51
     }
