@@ -5,7 +5,7 @@
   "total_citations": 1703,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-05-10T03:47:25.318125+00:00",
+  "last_checked": "2026-05-10T08:13:54.824176+00:00",
   "articles": [
     {
       "title": "A Reproducibility Study of LLM-Based Query Reformulation",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-09T02:46:43.046924+00:00",
-      "total_citations": 1550,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-09T07:44:58.453814+00:00",
       "total_citations": 1550,
@@ -895,6 +889,12 @@
     },
     {
       "date": "2026-05-10T03:47:25.318125+00:00",
+      "total_citations": 1703,
+      "h_index": 24,
+      "i10_index": 51
+    },
+    {
+      "date": "2026-05-10T08:13:54.824176+00:00",
       "total_citations": 1703,
       "h_index": 24,
       "i10_index": 51
