@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1706,
-  "h_index": 24,
-  "i10_index": 51,
-  "last_checked": "2026-05-11T09:50:17.383357+00:00",
+  "total_citations": 0,
+  "h_index": 0,
+  "i10_index": 0,
+  "last_checked": "2026-05-11T15:22:19.879256+00:00",
   "articles": [
     {
       "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-10T07:49:52.393382+00:00",
-      "total_citations": 1558,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-10T13:22:11.352190+00:00",
       "total_citations": 1558,
@@ -898,6 +892,12 @@
       "total_citations": 1706,
       "h_index": 24,
       "i10_index": 51
+    },
+    {
+      "date": "2026-05-11T15:22:19.879256+00:00",
+      "total_citations": 0,
+      "h_index": 0,
+      "i10_index": 0
     }
   ],
   "latest_diff": null
