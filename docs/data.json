@@ -5,7 +5,7 @@
   "total_citations": 1707,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-05-12T03:41:36.744794+00:00",
+  "last_checked": "2026-05-12T08:47:19.347392+00:00",
   "articles": [
     {
       "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-11T02:42:41.961509+00:00",
-      "total_citations": 1558,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-11T07:07:19.425971+00:00",
       "total_citations": 0,
@@ -898,10 +892,13 @@
       "total_citations": 1707,
       "h_index": 24,
       "i10_index": 51
+    },
+    {
+      "date": "2026-05-12T08:47:19.347392+00:00",
+      "total_citations": 1707,
+      "h_index": 24,
+      "i10_index": 51
     }
   ],
-  "latest_diff": {
-    "gained": 1,
-    "articles_count": 2
-  }
+  "latest_diff": null
 }
