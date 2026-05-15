@@ -2,7 +2,7 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-05-15T03:54:47.681027+00:00",
+  "last_checked": "2026-05-15T08:54:40.632417+00:00",
   "total_citations": 1710,
   "h_index": 24,
   "i10_index": 51,
@@ -706,6 +706,20 @@
       "year": "",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:NhqRSupF_l8C",
       "authors": "MZ Pan, N Arabzadeh, M Jacob, F Kazhamiaka, E Choukse, M Zaharia"
+    },
+    {
+      "title": "Restructuring the Corpus Makes RAG Work for Math",
+      "citation_count": 0,
+      "year": "",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
+      "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
+    },
+    {
+      "title": "Monster Ranking",
+      "citation_count": 0,
+      "year": "",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:rO6llkc54NcC",
+      "authors": "CLA Clarke, S Huo, N Arabzadeh"
     }
   ],
   "history": [
@@ -2253,6 +2267,12 @@
     },
     {
       "date": "2026-05-15T03:54:47.681027+00:00",
+      "total_citations": 1710,
+      "h_index": 24,
+      "i10_index": 51
+    },
+    {
+      "date": "2026-05-15T08:54:40.632417+00:00",
       "total_citations": 1710,
       "h_index": 24,
       "i10_index": 51
