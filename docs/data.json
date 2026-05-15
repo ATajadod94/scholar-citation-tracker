@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1707,
+  "total_citations": 1710,
   "h_index": 24,
   "i10_index": 51,
-  "last_checked": "2026-05-14T19:51:44.524796+00:00",
+  "last_checked": "2026-05-15T03:54:47.681027+00:00",
   "articles": [
     {
       "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
@@ -135,7 +135,7 @@
     },
     {
       "title": "RottenReviews: Benchmarking Review Quality with Human and LLM-Based Judgments",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:a0OBvERweLwC",
       "authors": "S Ebrahimi, S Sadeghian, A Ghorbanpour, N Arabzadeh, S Salamat, M Li, ..."
@@ -296,7 +296,7 @@
     },
     {
       "title": "Report on the search futures workshop at ECIR 2024",
-      "citation_count": 17,
+      "citation_count": 18,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:J_g5lzvAfSwC",
       "authors": "L Azzopardi, CLA Clarke, P Kantor, B Mitra, JR Trippas, Z Ren, ..."
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-13T19:20:36.424126+00:00",
-      "total_citations": 1568,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-14T03:18:08.362135+00:00",
       "total_citations": 1571,
@@ -898,7 +892,16 @@
       "total_citations": 1707,
       "h_index": 24,
       "i10_index": 51
+    },
+    {
+      "date": "2026-05-15T03:54:47.681027+00:00",
+      "total_citations": 1710,
+      "h_index": 24,
+      "i10_index": 51
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 3,
+    "articles_count": 3
+  }
 }
