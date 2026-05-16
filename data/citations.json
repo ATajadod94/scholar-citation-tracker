@@ -2,10 +2,10 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-05-16T08:09:57.047809+00:00",
-  "total_citations": 0,
-  "h_index": 0,
-  "i10_index": 0,
+  "last_checked": "2026-05-16T13:42:21.876965+00:00",
+  "total_citations": 1715,
+  "h_index": 24,
+  "i10_index": 51,
   "articles": [
     {
       "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
@@ -23,7 +23,7 @@
     },
     {
       "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
-      "citation_count": 0,
+      "citation_count": 1,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:1sJd4Hv_s6UC",
       "authors": "S Ebrahimi, S Sadeghian, A Ghorbanpour, N Arabzadeh, S Salamat, ..."
@@ -100,7 +100,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 35,
+      "citation_count": 36,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -142,7 +142,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 22,
+      "citation_count": 23,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -205,7 +205,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 90,
+      "citation_count": 91,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -611,7 +611,7 @@
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 81,
+      "citation_count": 82,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
       "authors": "N Arabzadeh, X Yan, CLA Clarke"
@@ -2300,6 +2300,12 @@
       "total_citations": 0,
       "h_index": 0,
       "i10_index": 0
+    },
+    {
+      "date": "2026-05-16T13:42:21.876965+00:00",
+      "total_citations": 1715,
+      "h_index": 24,
+      "i10_index": 51
     }
   ]
 }
