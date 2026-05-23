@@ -5,7 +5,7 @@
   "total_citations": 1727,
   "h_index": 25,
   "i10_index": 52,
-  "last_checked": "2026-05-23T13:46:46.437182+00:00",
+  "last_checked": "2026-05-23T19:18:08.338837+00:00",
   "articles": [
     {
       "title": "Empra: Embedding perturbation rank attack against neural ranking models",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-22T13:55:24.699634+00:00",
-      "total_citations": 1592,
-      "h_index": 24,
-      "i10_index": 51
-    },
     {
       "date": "2026-04-22T19:21:41.577047+00:00",
       "total_citations": 1592,
@@ -895,6 +889,12 @@
     },
     {
       "date": "2026-05-23T13:46:46.437182+00:00",
+      "total_citations": 1727,
+      "h_index": 25,
+      "i10_index": 52
+    },
+    {
+      "date": "2026-05-23T19:18:08.338837+00:00",
       "total_citations": 1727,
       "h_index": 25,
       "i10_index": 52
