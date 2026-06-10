@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-10T04:10:37.216818+00:00",
-  "total_citations": 1781,
+  "last_checked": "2026-06-10T10:11:15.512012+00:00",
+  "total_citations": 1786,
   "h_index": 25,
   "i10_index": 52,
   "articles": [
@@ -114,7 +114,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 48,
+      "citation_count": 49,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -450,7 +450,7 @@
     },
     {
       "title": "Query performance prediction: From ad-hoc to conversational search",
-      "citation_count": 57,
+      "citation_count": 58,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:7PzlFSSx8tAC",
       "authors": "C Meng, N Arabzadeh, M Aliannejadi, M De Rijke"
@@ -646,7 +646,7 @@
     },
     {
       "title": "Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised Query Reformulation",
-      "citation_count": 27,
+      "citation_count": 28,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC",
       "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
@@ -667,7 +667,7 @@
     },
     {
       "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 50,
+      "citation_count": 52,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
@@ -2533,6 +2533,12 @@
     {
       "date": "2026-06-10T04:10:37.216818+00:00",
       "total_citations": 1781,
+      "h_index": 25,
+      "i10_index": 52
+    },
+    {
+      "date": "2026-06-10T10:11:15.512012+00:00",
+      "total_citations": 1786,
       "h_index": 25,
       "i10_index": 52
     }
