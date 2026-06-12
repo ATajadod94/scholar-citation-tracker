@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1786,
+  "total_citations": 1787,
   "h_index": 25,
   "i10_index": 52,
-  "last_checked": "2026-06-11T20:26:59.039914+00:00",
+  "last_checked": "2026-06-12T04:26:18.135848+00:00",
   "articles": [
     {
       "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
@@ -177,7 +177,7 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 36,
+      "citation_count": 37,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-26T13:17:13.262023+00:00",
-      "total_citations": 1631,
-      "h_index": 24,
-      "i10_index": 51
-    },
     {
       "date": "2026-04-26T19:02:42.544881+00:00",
       "total_citations": 1631,
@@ -898,7 +892,16 @@
       "total_citations": 1786,
       "h_index": 25,
       "i10_index": 52
+    },
+    {
+      "date": "2026-06-12T04:26:18.135848+00:00",
+      "total_citations": 1787,
+      "h_index": 25,
+      "i10_index": 52
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1,
+    "articles_count": 1
+  }
 }
