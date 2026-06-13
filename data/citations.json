@@ -2,10 +2,10 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-12T20:16:27.573211+00:00",
-  "total_citations": 1787,
+  "last_checked": "2026-06-13T04:14:40.937639+00:00",
+  "total_citations": 1792,
   "h_index": 25,
-  "i10_index": 52,
+  "i10_index": 53,
   "articles": [
     {
       "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
@@ -114,7 +114,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 49,
+      "citation_count": 50,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -212,7 +212,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 100,
+      "citation_count": 102,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -387,7 +387,7 @@
     },
     {
       "title": "Towards better human-agent alignment: Assessing task utility in llm-powered applications",
-      "citation_count": 9,
+      "citation_count": 10,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:j3f4tGmQtD8C",
       "authors": "N Arabzadeh, J Kiseleva, Q Wu, C Wang, A Awadallah, V Dibia, ..."
@@ -422,7 +422,7 @@
     },
     {
       "title": "A self-supervised language model selection strategy for biomedical question answering",
-      "citation_count": 8,
+      "citation_count": 9,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HDshCWvjkbEC",
       "authors": "N Arabzadeh, E Bagheri"
@@ -2601,6 +2601,12 @@
       "total_citations": 1787,
       "h_index": 25,
       "i10_index": 52
+    },
+    {
+      "date": "2026-06-13T04:14:40.937639+00:00",
+      "total_citations": 1792,
+      "h_index": 25,
+      "i10_index": 53
     }
   ]
 }
