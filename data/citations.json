@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-15T12:26:11.804520+00:00",
-  "total_citations": 1798,
+  "last_checked": "2026-06-15T21:09:58.422611+00:00",
+  "total_citations": 1804,
   "h_index": 25,
   "i10_index": 53,
   "articles": [
@@ -16,7 +16,7 @@
     },
     {
       "title": "QueryGym: A Toolkit for Reproducible LLM-Based Query Reformulation",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_xSYboBqXhAC",
       "authors": "A Bigdeli, R Hamidi Rad, M Incesu, N Arabzadeh, C Clarke, E Bagheri"
@@ -149,7 +149,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 30,
+      "citation_count": 31,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -177,7 +177,7 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 37,
+      "citation_count": 38,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -233,7 +233,7 @@
     },
     {
       "title": "Robust query performance prediction for dense retrievers via adaptive disturbance generation",
-      "citation_count": 5,
+      "citation_count": 6,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:g5m5HwL7SMYC",
       "authors": "A Saleminezhad, N Arabzadeh, RH Rad, S Beheshti, E Bagheri"
@@ -457,7 +457,7 @@
     },
     {
       "title": "Query performance prediction: From ad-hoc to conversational search",
-      "citation_count": 58,
+      "citation_count": 59,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:7PzlFSSx8tAC",
       "authors": "C Meng, N Arabzadeh, M Aliannejadi, M De Rijke"
@@ -527,7 +527,7 @@
     },
     {
       "title": "Shallow pooling for sparse labels",
-      "citation_count": 73,
+      "citation_count": 74,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:LkGwnXOMwfcC",
       "authors": "N Arabzadeh, A Vtyurina, X Yan, CLA Clarke"
@@ -2659,6 +2659,12 @@
     {
       "date": "2026-06-15T12:26:11.804520+00:00",
       "total_citations": 1798,
+      "h_index": 25,
+      "i10_index": 53
+    },
+    {
+      "date": "2026-06-15T21:09:58.422611+00:00",
+      "total_citations": 1804,
       "h_index": 25,
       "i10_index": 53
     }
