@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-17T11:05:35.724097+00:00",
-  "total_citations": 1804,
+  "last_checked": "2026-06-17T15:49:17.736410+00:00",
+  "total_citations": 1802,
   "h_index": 25,
   "i10_index": 53,
   "articles": [
@@ -674,7 +674,7 @@
     },
     {
       "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 52,
+      "citation_count": 50,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
@@ -2701,6 +2701,12 @@
     {
       "date": "2026-06-17T11:05:35.724097+00:00",
       "total_citations": 1804,
+      "h_index": 25,
+      "i10_index": 53
+    },
+    {
+      "date": "2026-06-17T15:49:17.736410+00:00",
+      "total_citations": 1802,
       "h_index": 25,
       "i10_index": 53
     }
