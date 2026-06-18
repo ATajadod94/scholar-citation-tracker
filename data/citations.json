@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-18T15:36:02.633497+00:00",
-  "total_citations": 1802,
+  "last_checked": "2026-06-18T20:31:25.031683+00:00",
+  "total_citations": 1809,
   "h_index": 25,
   "i10_index": 53,
   "articles": [
@@ -114,7 +114,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 50,
+      "citation_count": 53,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -170,14 +170,14 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 29,
+      "citation_count": 31,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 38,
+      "citation_count": 39,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -618,7 +618,7 @@
     },
     {
       "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
-      "citation_count": 83,
+      "citation_count": 84,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
       "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
@@ -2731,6 +2731,12 @@
     {
       "date": "2026-06-18T15:36:02.633497+00:00",
       "total_citations": 1802,
+      "h_index": 25,
+      "i10_index": 53
+    },
+    {
+      "date": "2026-06-18T20:31:25.031683+00:00",
+      "total_citations": 1809,
       "h_index": 25,
       "i10_index": 53
     }
