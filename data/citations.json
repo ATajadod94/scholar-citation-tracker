@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-19T04:53:09.033526+00:00",
-  "total_citations": 1809,
+  "last_checked": "2026-06-19T10:45:09.086732+00:00",
+  "total_citations": 1819,
   "h_index": 25,
   "i10_index": 53,
   "articles": [
@@ -16,10 +16,17 @@
     },
     {
       "title": "QueryGym: A Toolkit for Reproducible LLM-Based Query Reformulation",
-      "citation_count": 6,
+      "citation_count": 7,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_xSYboBqXhAC",
       "authors": "A Bigdeli, R Hamidi Rad, M Incesu, N Arabzadeh, C Clarke, E Bagheri"
+    },
+    {
+      "title": "ADORE: Iterative Query Expansion with Retrieval-Grounded Relevance Feedback",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:XiSMed-E-HIC",
+      "authors": "A Bigdeli, N Arabzadeh, RH Rad, S Ebrahimi, CLA Clarke, E Bagheri"
     },
     {
       "title": "Natural Language Query to Configuration for Retrieval Agents",
@@ -44,7 +51,7 @@
     },
     {
       "title": "A Reproducibility Study of LLM-Based Query Reformulation",
-      "citation_count": 0,
+      "citation_count": 1,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:uWQEDVKXjbEC",
       "authors": "A Bigdeli, RH Rad, HS Le, M Incesu, N Arabzadeh, CLA Clarke, ..."
@@ -79,7 +86,7 @@
     },
     {
       "title": "ReFormeR: Learning and Applying Explicit Query Reformulation Patterns",
-      "citation_count": 3,
+      "citation_count": 4,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:nb7KW1ujOQ8C",
       "authors": "A Bigdeli, M Incesu, N Arabzadeh, CLA Clarke, E Bagheri"
@@ -128,7 +135,7 @@
     },
     {
       "title": "LLM-as-a-Judge in Entity Retrieval: Assessing Explicit and Implicit Relevance",
-      "citation_count": 0,
+      "citation_count": 1,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:f2IySw72cVMC",
       "authors": "MH Saliminabi, N Arabzadeh, SM Hosseini, D Androutsos, M Zihayat, ..."
@@ -149,7 +156,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 31,
+      "citation_count": 33,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -212,7 +219,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 103,
+      "citation_count": 104,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -296,7 +303,7 @@
     },
     {
       "title": "Generative information retrieval evaluation",
-      "citation_count": 54,
+      "citation_count": 55,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
       "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
@@ -674,7 +681,7 @@
     },
     {
       "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 50,
+      "citation_count": 52,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
@@ -704,7 +711,7 @@
       "title": "Entity Retrieval Docker Image for OSIRRC at SIGIR 2019.",
       "citation_count": 0,
       "year": "2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:d1gkVwhDpl0C",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:d1gkVwhDpl0C",
       "authors": "N Arabzadeh"
     },
     {
@@ -2743,6 +2750,12 @@
     {
       "date": "2026-06-19T04:53:09.033526+00:00",
       "total_citations": 1809,
+      "h_index": 25,
+      "i10_index": 53
+    },
+    {
+      "date": "2026-06-19T10:45:09.086732+00:00",
+      "total_citations": 1819,
       "h_index": 25,
       "i10_index": 53
     }
