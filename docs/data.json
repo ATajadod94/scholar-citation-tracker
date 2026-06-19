@@ -5,7 +5,7 @@
   "total_citations": 1809,
   "h_index": 25,
   "i10_index": 53,
-  "last_checked": "2026-06-18T20:31:25.031683+00:00",
+  "last_checked": "2026-06-19T04:53:09.033526+00:00",
   "articles": [
     {
       "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-05-12T03:41:36.744794+00:00",
-      "total_citations": 1707,
-      "h_index": 24,
-      "i10_index": 51
-    },
     {
       "date": "2026-05-12T08:47:19.347392+00:00",
       "total_citations": 1707,
@@ -898,10 +892,13 @@
       "total_citations": 1809,
       "h_index": 25,
       "i10_index": 53
+    },
+    {
+      "date": "2026-06-19T04:53:09.033526+00:00",
+      "total_citations": 1809,
+      "h_index": 25,
+      "i10_index": 53
     }
   ],
-  "latest_diff": {
-    "gained": 7,
-    "articles_count": 4
-  }
+  "latest_diff": null
 }
