@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1821,
+  "total_citations": 1824,
   "h_index": 25,
   "i10_index": 53,
-  "last_checked": "2026-06-22T04:57:48.128795+00:00",
+  "last_checked": "2026-06-22T12:13:02.774185+00:00",
   "articles": [
     {
       "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
@@ -20,6 +20,13 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_xSYboBqXhAC",
       "authors": "A Bigdeli, R Hamidi Rad, M Incesu, N Arabzadeh, C Clarke, E Bagheri"
+    },
+    {
+      "title": "Multi-Agent Transactive Memory",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Tiz5es2fbqcC",
+      "authors": "TE Kim, X He, D Jain, A Agrawal, N Arabzadeh, F Diaz"
     },
     {
       "title": "ADORE: Iterative Query Expansion with Retrieval-Grounded Relevance Feedback",
@@ -121,7 +128,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 54,
+      "citation_count": 55,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -177,7 +184,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 31,
+      "citation_count": 32,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -349,22 +356,9 @@
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:blknAaTinKkC",
       "authors": "N Arabzadeh, K Golzadeh, C Risi, CLA Clarke, J Zhao"
-    },
-    {
-      "title": "Laque: Enabling entity search at scale",
-      "citation_count": 9,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:TFP_iSt0sucC",
-      "authors": "N Arabzadeh, A Bigdeli, E Bagheri"
     }
   ],
   "history": [
-    {
-      "date": "2026-05-15T08:54:40.632417+00:00",
-      "total_citations": 1710,
-      "h_index": 24,
-      "i10_index": 51
-    },
     {
       "date": "2026-05-15T14:19:53.371903+00:00",
       "total_citations": 1710,
@@ -898,7 +892,16 @@
       "total_citations": 1821,
       "h_index": 25,
       "i10_index": 53
+    },
+    {
+      "date": "2026-06-22T12:13:02.774185+00:00",
+      "total_citations": 1824,
+      "h_index": 25,
+      "i10_index": 53
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 3,
+    "articles_count": 3
+  }
 }

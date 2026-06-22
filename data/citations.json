@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-06-22T04:57:48.128795+00:00",
-  "total_citations": 1821,
+  "last_checked": "2026-06-22T12:13:02.774185+00:00",
+  "total_citations": 1824,
   "h_index": 25,
   "i10_index": 53,
   "articles": [
@@ -20,6 +20,13 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_xSYboBqXhAC",
       "authors": "A Bigdeli, R Hamidi Rad, M Incesu, N Arabzadeh, C Clarke, E Bagheri"
+    },
+    {
+      "title": "Multi-Agent Transactive Memory",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Tiz5es2fbqcC",
+      "authors": "TE Kim, X He, D Jain, A Agrawal, N Arabzadeh, F Diaz"
     },
     {
       "title": "ADORE: Iterative Query Expansion with Retrieval-Grounded Relevance Feedback",
@@ -121,7 +128,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 54,
+      "citation_count": 55,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -177,7 +184,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 31,
+      "citation_count": 32,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -555,7 +562,7 @@
     },
     {
       "title": "Early stage sparse retrieval with entity linking",
-      "citation_count": 16,
+      "citation_count": 17,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_kc_bZDykSQC",
       "authors": "D Shehata, N Arabzadeh, CLA Clarke"
@@ -704,7 +711,7 @@
       "title": "Geometric estimation of specificity within embedding spaces",
       "citation_count": 19,
       "year": "2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:qjMakFHDy7sC",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:qjMakFHDy7sC",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
     },
     {
@@ -2822,6 +2829,12 @@
     {
       "date": "2026-06-22T04:57:48.128795+00:00",
       "total_citations": 1821,
+      "h_index": 25,
+      "i10_index": 53
+    },
+    {
+      "date": "2026-06-22T12:13:02.774185+00:00",
+      "total_citations": 1824,
       "h_index": 25,
       "i10_index": 53
     }
