@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1886,
+  "total_citations": 1890,
   "h_index": 25,
   "i10_index": 54,
-  "last_checked": "2026-07-10T19:38:47.155073+00:00",
+  "last_checked": "2026-07-11T03:13:23.301205+00:00",
   "articles": [
     {
       "title": "Characterizing Agents in Production",
@@ -170,7 +170,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 37,
+      "citation_count": 39,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -233,7 +233,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 115,
+      "citation_count": 116,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-05-19T19:57:17.816086+00:00",
-      "total_citations": 1725,
-      "h_index": 24,
-      "i10_index": 52
-    },
     {
       "date": "2026-05-20T04:02:16.654148+00:00",
       "total_citations": 1725,
@@ -898,7 +892,16 @@
       "total_citations": 1886,
       "h_index": 25,
       "i10_index": 54
+    },
+    {
+      "date": "2026-07-11T03:13:23.301205+00:00",
+      "total_citations": 1890,
+      "h_index": 25,
+      "i10_index": 54
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 4,
+    "articles_count": 3
+  }
 }
