@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1890,
+  "total_citations": 1892,
   "h_index": 25,
   "i10_index": 54,
-  "last_checked": "2026-07-12T19:11:14.841863+00:00",
+  "last_checked": "2026-07-13T03:27:43.459872+00:00",
   "articles": [
     {
       "title": "Characterizing Agents in Production",
@@ -135,7 +135,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 62,
+      "citation_count": 61,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -233,7 +233,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 116,
+      "citation_count": 118,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -317,7 +317,7 @@
     },
     {
       "title": "Generative information retrieval evaluation",
-      "citation_count": 56,
+      "citation_count": 57,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
       "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-05-21T19:59:35.588737+00:00",
-      "total_citations": 1725,
-      "h_index": 24,
-      "i10_index": 52
-    },
     {
       "date": "2026-05-22T04:05:49.658188+00:00",
       "total_citations": 1725,
@@ -898,7 +892,16 @@
       "total_citations": 1890,
       "h_index": 25,
       "i10_index": 54
+    },
+    {
+      "date": "2026-07-13T03:27:43.459872+00:00",
+      "total_citations": 1892,
+      "h_index": 25,
+      "i10_index": 54
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 2,
+    "articles_count": 2
+  }
 }
