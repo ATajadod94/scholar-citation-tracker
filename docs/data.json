@@ -5,7 +5,7 @@
   "total_citations": 1892,
   "h_index": 25,
   "i10_index": 54,
-  "last_checked": "2026-07-13T03:27:43.459872+00:00",
+  "last_checked": "2026-07-13T09:35:42.316064+00:00",
   "articles": [
     {
       "title": "Characterizing Agents in Production",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-05-22T04:05:49.658188+00:00",
-      "total_citations": 1725,
-      "h_index": 24,
-      "i10_index": 52
-    },
     {
       "date": "2026-05-22T09:37:09.481039+00:00",
       "total_citations": 1727,
@@ -898,10 +892,13 @@
       "total_citations": 1892,
       "h_index": 25,
       "i10_index": 54
+    },
+    {
+      "date": "2026-07-13T09:35:42.316064+00:00",
+      "total_citations": 1892,
+      "h_index": 25,
+      "i10_index": 54
     }
   ],
-  "latest_diff": {
-    "gained": 2,
-    "articles_count": 2
-  }
+  "latest_diff": null
 }
