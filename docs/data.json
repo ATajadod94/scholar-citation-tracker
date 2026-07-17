@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1940,
+  "total_citations": 1945,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-07-17T03:12:45.105966+00:00",
+  "last_checked": "2026-07-17T08:17:20.883341+00:00",
   "articles": [
     {
       "title": "From Doxa to Logos in Scientific Peer Review",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 61,
+      "citation_count": 65,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-06-10T10:11:15.512012+00:00",
-      "total_citations": 1786,
-      "h_index": 25,
-      "i10_index": 52
-    },
     {
       "date": "2026-06-10T15:48:59.548586+00:00",
       "total_citations": 1786,
@@ -898,7 +892,16 @@
       "total_citations": 1940,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-07-17T08:17:20.883341+00:00",
+      "total_citations": 1945,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 5,
+    "articles_count": 3
+  }
 }
