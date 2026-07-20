@@ -2,9 +2,9 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-07-20T03:34:51.549249+00:00",
-  "total_citations": 1948,
-  "h_index": 25,
+  "last_checked": "2026-07-20T09:22:51.265208+00:00",
+  "total_citations": 1949,
+  "h_index": 26,
   "i10_index": 55,
   "articles": [
     {
@@ -310,7 +310,7 @@
     },
     {
       "title": "Assessing and verifying task utility in LLM-powered applications",
-      "citation_count": 25,
+      "citation_count": 26,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
       "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
@@ -765,12 +765,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-02T07:05:31.517930+00:00",
-      "total_citations": 1462,
-      "h_index": 23,
-      "i10_index": 46
-    },
     {
       "date": "2026-03-02T13:10:49.006261+00:00",
       "total_citations": 1462,
@@ -2953,6 +2947,12 @@
       "date": "2026-07-20T03:34:51.549249+00:00",
       "total_citations": 1948,
       "h_index": 25,
+      "i10_index": 55
+    },
+    {
+      "date": "2026-07-20T09:22:51.265208+00:00",
+      "total_citations": 1949,
+      "h_index": 26,
       "i10_index": 55
     }
   ]
