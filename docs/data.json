@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1949,
+  "total_citations": 1953,
   "h_index": 26,
   "i10_index": 55,
-  "last_checked": "2026-07-21T14:03:16.786128+00:00",
+  "last_checked": "2026-07-21T19:37:35.470661+00:00",
   "articles": [
     {
       "title": "From Doxa to Logos in Scientific Peer Review",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 65,
+      "citation_count": 66,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -212,7 +212,7 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 44,
+      "citation_count": 45,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-06-14T19:42:46.330796+00:00",
-      "total_citations": 1798,
-      "h_index": 25,
-      "i10_index": 53
-    },
     {
       "date": "2026-06-15T04:56:31.931527+00:00",
       "total_citations": 1798,
@@ -898,7 +892,16 @@
       "total_citations": 1949,
       "h_index": 26,
       "i10_index": 55
+    },
+    {
+      "date": "2026-07-21T19:37:35.470661+00:00",
+      "total_citations": 1953,
+      "h_index": 26,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 4,
+    "articles_count": 4
+  }
 }
