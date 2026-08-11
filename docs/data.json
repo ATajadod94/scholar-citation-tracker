@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1975,
+  "total_citations": 1980,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-08-11T07:14:34.273061+00:00",
+  "last_checked": "2026-08-11T13:15:07.034591+00:00",
   "articles": [
     {
       "title": "From Doxa to Logos in Scientific Peer Review",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 67,
+      "citation_count": 68,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -247,7 +247,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 123,
+      "citation_count": 125,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -345,7 +345,7 @@
     },
     {
       "title": "Ranked list truncation for large language model-based re-ranking",
-      "citation_count": 53,
+      "citation_count": 54,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
       "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-06-20T09:25:06.743430+00:00",
-      "total_citations": 1819,
-      "h_index": 25,
-      "i10_index": 53
-    },
     {
       "date": "2026-06-20T14:13:37.891148+00:00",
       "total_citations": 1819,
@@ -898,7 +892,16 @@
       "total_citations": 1975,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-08-11T13:15:07.034591+00:00",
+      "total_citations": 1980,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 5,
+    "articles_count": 4
+  }
 }
