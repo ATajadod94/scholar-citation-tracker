@@ -2,7 +2,7 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-08-12T02:19:11.449540+00:00",
+  "last_checked": "2026-08-12T07:38:31.427837+00:00",
   "total_citations": 1980,
   "h_index": 25,
   "i10_index": 55,
@@ -765,12 +765,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-09T19:00:12.552281+00:00",
-      "total_citations": 1473,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-10T02:30:01.897649+00:00",
       "total_citations": 1473,
@@ -2951,6 +2945,12 @@
     },
     {
       "date": "2026-08-12T02:19:11.449540+00:00",
+      "total_citations": 1980,
+      "h_index": 25,
+      "i10_index": 55
+    },
+    {
+      "date": "2026-08-12T07:38:31.427837+00:00",
       "total_citations": 1980,
       "h_index": 25,
       "i10_index": 55
