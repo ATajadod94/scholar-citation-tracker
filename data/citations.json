@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-08-14T02:19:37.143409+00:00",
-  "total_citations": 1980,
+  "last_checked": "2026-08-14T07:37:49.176945+00:00",
+  "total_citations": 1988,
   "h_index": 25,
   "i10_index": 55,
   "articles": [
@@ -20,6 +20,13 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:738O_yMBCRsC",
       "authors": "SM Hosseini, N Arabzadeh, MH Saliminabi, D Androutsos, M Zihayat, ..."
+    },
+    {
+      "title": "Peerprism: Peer evaluation expertise vs review-writing AI",
+      "citation_count": 2,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:dshw04ExmUIC",
+      "authors": "S Sadeghian, A Daghighfarsoodeh, R Cheraghi, S Ebrahimi, ..."
     },
     {
       "title": "Characterizing Agents in Production",
@@ -99,13 +106,6 @@
       "authors": "A Ghorbanpour, S Sadeghian, A Daghighfarsoodeh, S Ebrahimi, ..."
     },
     {
-      "title": "PeerPrism: Peer Evaluation Expertise vs Review-writing AI",
-      "citation_count": 2,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:dshw04ExmUIC",
-      "authors": "S Sadeghian, A Daqiq, R Cheraghi, S Ebrahimi, N Arabzadeh, E Bagheri"
-    },
-    {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
       "citation_count": 1,
       "year": "2026",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 68,
+      "citation_count": 69,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -184,7 +184,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 34,
+      "citation_count": 36,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -240,7 +240,7 @@
     },
     {
       "title": "exHarmony: authorship and citations for benchmarking the reviewer assignment problem",
-      "citation_count": 15,
+      "citation_count": 16,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
       "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
@@ -422,7 +422,7 @@
     },
     {
       "title": "Towards better human-agent alignment: Assessing task utility in llm-powered applications",
-      "citation_count": 12,
+      "citation_count": 13,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:j3f4tGmQtD8C",
       "authors": "N Arabzadeh, J Kiseleva, Q Wu, C Wang, A Awadallah, V Dibia, ..."
@@ -506,7 +506,7 @@
     },
     {
       "title": "Transforming human-centered ai collaboration: Redefining embodied agents capabilities through interactive grounded language instructions",
-      "citation_count": 19,
+      "citation_count": 20,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:L8Ckcad2t8MC",
       "authors": "S Mohanty, N Arabzadeh, J Kiseleva, A Zholus, M Teruel, A Awadallah, ..."
@@ -618,7 +618,7 @@
     },
     {
       "title": "Iglu 2022: Interactive grounded language understanding in a collaborative environment at neurips 2022",
-      "citation_count": 24,
+      "citation_count": 25,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:kNdYIx-mwKoC",
       "authors": "J Kiseleva, A Skrynnik, A Zholus, S Mohanty, N Arabzadeh, MA Côté, ..."
@@ -681,7 +681,7 @@
     },
     {
       "title": "Exploring gender biases in information retrieval relevance judgement datasets",
-      "citation_count": 32,
+      "citation_count": 33,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC",
       "authors": "A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
@@ -765,12 +765,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-11T19:00:27.979484+00:00",
-      "total_citations": 1476,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-12T02:35:41.163428+00:00",
       "total_citations": 1476,
@@ -2952,6 +2946,12 @@
     {
       "date": "2026-08-14T02:19:37.143409+00:00",
       "total_citations": 1980,
+      "h_index": 25,
+      "i10_index": 55
+    },
+    {
+      "date": "2026-08-14T07:37:49.176945+00:00",
+      "total_citations": 1988,
       "h_index": 25,
       "i10_index": 55
     }

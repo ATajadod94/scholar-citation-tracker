@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1980,
+  "total_citations": 1988,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-08-14T02:19:37.143409+00:00",
+  "last_checked": "2026-08-14T07:37:49.176945+00:00",
   "articles": [
     {
       "title": "From Doxa to Logos in Scientific Peer Review",
@@ -20,6 +20,13 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:738O_yMBCRsC",
       "authors": "SM Hosseini, N Arabzadeh, MH Saliminabi, D Androutsos, M Zihayat, ..."
+    },
+    {
+      "title": "Peerprism: Peer evaluation expertise vs review-writing AI",
+      "citation_count": 2,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:dshw04ExmUIC",
+      "authors": "S Sadeghian, A Daghighfarsoodeh, R Cheraghi, S Ebrahimi, ..."
     },
     {
       "title": "Characterizing Agents in Production",
@@ -99,13 +106,6 @@
       "authors": "A Ghorbanpour, S Sadeghian, A Daghighfarsoodeh, S Ebrahimi, ..."
     },
     {
-      "title": "PeerPrism: Peer Evaluation Expertise vs Review-writing AI",
-      "citation_count": 2,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:dshw04ExmUIC",
-      "authors": "S Sadeghian, A Daqiq, R Cheraghi, S Ebrahimi, N Arabzadeh, E Bagheri"
-    },
-    {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
       "citation_count": 1,
       "year": "2026",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 68,
+      "citation_count": 69,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -184,7 +184,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 34,
+      "citation_count": 36,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -240,7 +240,7 @@
     },
     {
       "title": "exHarmony: authorship and citations for benchmarking the reviewer assignment problem",
-      "citation_count": 15,
+      "citation_count": 16,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
       "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-06-23T09:51:26.122601+00:00",
-      "total_citations": 1824,
-      "h_index": 25,
-      "i10_index": 53
-    },
     {
       "date": "2026-06-23T15:11:31.800539+00:00",
       "total_citations": 1824,
@@ -898,7 +892,16 @@
       "total_citations": 1980,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-08-14T07:37:49.176945+00:00",
+      "total_citations": 1988,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 8,
+    "articles_count": 7
+  }
 }
