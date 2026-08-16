@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-08-16T06:46:24.270576+00:00",
-  "total_citations": 1991,
+  "last_checked": "2026-08-16T12:47:24.989444+00:00",
+  "total_citations": 1995,
   "h_index": 25,
   "i10_index": 55,
   "articles": [
@@ -149,7 +149,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 71,
+      "citation_count": 72,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -247,7 +247,7 @@
     },
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 125,
+      "citation_count": 127,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -660,7 +660,7 @@
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 86,
+      "citation_count": 87,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
       "authors": "N Arabzadeh, X Yan, CLA Clarke"
@@ -765,12 +765,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-14T02:31:16.457228+00:00",
-      "total_citations": 1482,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-14T06:55:35.872067+00:00",
       "total_citations": 1482,
@@ -2952,6 +2946,12 @@
     {
       "date": "2026-08-16T06:46:24.270576+00:00",
       "total_citations": 1991,
+      "h_index": 25,
+      "i10_index": 55
+    },
+    {
+      "date": "2026-08-16T12:47:24.989444+00:00",
+      "total_citations": 1995,
       "h_index": 25,
       "i10_index": 55
     }
