@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1995,
+  "total_citations": 1996,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-08-18T18:42:59.360566+00:00",
+  "last_checked": "2026-08-19T01:32:09.009694+00:00",
   "articles": [
     {
       "title": "From Doxa to Logos in Scientific Peer Review",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-12T03:24:23.441323+00:00",
-      "total_citations": 1890,
-      "h_index": 25,
-      "i10_index": 54
-    },
     {
       "date": "2026-07-12T08:23:52.383583+00:00",
       "total_citations": 1890,
@@ -898,7 +892,16 @@
       "total_citations": 1995,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-08-19T01:32:09.009694+00:00",
+      "total_citations": 1996,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1,
+    "articles_count": 1
+  }
 }
