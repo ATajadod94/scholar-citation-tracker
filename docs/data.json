@@ -5,7 +5,7 @@
   "total_citations": 1996,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-08-20T06:52:39.982327+00:00",
+  "last_checked": "2026-08-20T12:56:19.884390+00:00",
   "articles": [
     {
       "title": "From Doxa to Logos in Scientific Peer Review",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-13T14:44:35.165350+00:00",
-      "total_citations": 1892,
-      "h_index": 25,
-      "i10_index": 54
-    },
     {
       "date": "2026-07-13T19:34:43.810004+00:00",
       "total_citations": 1892,
@@ -895,6 +889,12 @@
     },
     {
       "date": "2026-08-20T06:52:39.982327+00:00",
+      "total_citations": 1996,
+      "h_index": 25,
+      "i10_index": 55
+    },
+    {
+      "date": "2026-08-20T12:56:19.884390+00:00",
       "total_citations": 1996,
       "h_index": 25,
       "i10_index": 55
