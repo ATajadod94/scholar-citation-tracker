@@ -40,8 +40,65 @@ SENDER_EMAIL = os.environ.get("SENDER_EMAIL","")
 SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD","")
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "citations.json"
+STATE_FILE = Path(__file__).resolve().parent.parent / "data" / "tracker_state.json"
+LOG_FILE = Path(__file__).resolve().parent.parent / "data" / "run_log.jsonl"
+DB_FILE = Path(__file__).resolve().parent.parent / "data" / "tracker.db"
 MAX_ARTICLES = 500
 PAGE_SIZE = 100
+
+# --- resilient state helpers ---
+def load_state():
+    if STATE_FILE.exists():
+        try:
+            with open(STATE_FILE) as f:
+                return json.load(f)
+        except: pass
+    return {
+        "last_run_at": None,
+        "last_success_at": None,
+        "last_total_citations": 0,
+        "consecutive_failures": 0,
+        "total_runs": 0,
+        "total_api_calls": 0,
+        "monthly_api_calls": 0,
+        "month": datetime.now(timezone.utc).strftime('%Y-%m'),
+        "last_error": None,
+    }
+
+def save_state(state):
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    tmp=STATE_FILE.with_suffix('.tmp')
+    with open(tmp,'w') as f:
+        json.dump(state,f,indent=2)
+    tmp.replace(STATE_FILE)
+
+def append_log(entry: dict):
+    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    # cap file to 500 lines to keep repo small
+    with open(LOG_FILE,'a') as f:
+        f.write(json.dumps(entry, ensure_ascii=False)+"\n")
+    try:
+        lines=LOG_FILE.read_text().splitlines()
+        if len(lines)>500:
+            LOG_FILE.write_text("\n".join(lines[-500:])+"\n")
+    except: pass
+
+def update_db(run_entry):
+    """tiny sqlite db so history isn't lost if json gets clobbered"""
+    try:
+        import sqlite3
+        DB_FILE.parent.mkdir(parents=True, exist_ok=True)
+        con=sqlite3.connect(DB_FILE)
+        con.execute("CREATE TABLE IF NOT EXISTS runs (id INTEGER PRIMARY KEY AUTOINCREMENT, ts TEXT, status TEXT, total INTEGER, h INTEGER, i10 INTEGER, api_calls INTEGER, error TEXT)")
+        con.execute("INSERT INTO runs (ts,status,total,h,i10,api_calls,error) VALUES (?,?,?,?,?,?,?)",
+                    (run_entry.get('ts'), run_entry.get('status'), run_entry.get('total'), run_entry.get('h'), run_entry.get('i10'), run_entry.get('api_calls'), run_entry.get('error')))
+        con.commit()
+        # keep last 365 runs only
+        con.execute("DELETE FROM runs WHERE id NOT IN (SELECT id FROM runs ORDER BY id DESC LIMIT 365)")
+        con.commit(); con.close()
+    except Exception as e:
+        log.warning("DB write failed: %s", e)
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -119,7 +176,11 @@ def load_previous_data() -> dict:
 
 def save_data(data: dict):
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(DATA_FILE,"w") as f: json.dump(f,data,indent=2,ensure_ascii=False)
+    # atomic write to avoid corrupt on failure
+    tmp = DATA_FILE.with_suffix('.tmp')
+    with open(tmp,"w") as f:
+        json.dump(data,f,indent=2,ensure_ascii=False)
+    tmp.replace(DATA_FILE)
     log.info("Data saved to %s", DATA_FILE)
 
 def compute_diff(old_data, profile, articles):
@@ -173,11 +234,31 @@ def generate_dashboard_data(data, diff):
 
 def main():
     log.info("="*60); log.info("Optimized Tracker — Starting"); log.info("="*60)
+    state=load_state()
+    state['total_runs']=state.get('total_runs',0)+1
+    state['last_run_at']=datetime.now(timezone.utc).isoformat()
+    # monthly reset
+    cur_month=datetime.now(timezone.utc).strftime('%Y-%m')
+    if state.get('month')!=cur_month:
+        state['month']=cur_month; state['monthly_api_calls']=0
+    save_state(state)
+    api_calls_used=0
     old=load_previous_data()
     log.info("Prev total %d h %d", old.get("total_citations",0), old.get("h_index",0))
 
     # 1 call: profile includes stats + up to 100 articles
-    profile=fetch_scholar_profile()
+    try:
+        profile=fetch_scholar_profile()
+        api_calls_used+=1
+    except SystemExit:
+        raise
+    except Exception as e:
+        state["consecutive_failures"]=state.get("consecutive_failures",0)+1
+        state["last_error"]=str(e)
+        save_state(state)
+        append_log({"ts": state["last_run_at"], "status":"failure", "error":str(e), "api_calls":api_calls_used})
+        update_db({"ts":state["last_run_at"],"status":"failure","total":old.get("total_citations"),"h":old.get("h_index"),"i10":old.get("i10_index"),"api_calls":api_calls_used,"error":str(e)})
+        raise
     cited_by=profile.get("cited_by",{}); table=cited_by.get("table",[])
     cur_total=cur_h=cur_i10=0
     for row in table:
@@ -201,12 +282,17 @@ def main():
         if len(profile.get("articles",[]))>=PAGE_SIZE:
             start=PAGE_SIZE
             while start<=MAX_ARTICLES:
-                extra=fetch_extra_articles(start)
+                try:
+                    extra=fetch_extra_articles(start)
+                    api_calls_used+=1
+                except Exception as e:
+                    log.warning("Extra page failed at %d: %s", start, e)
+                    break
                 if not extra: break
                 articles.extend(extra)
                 if len(extra)<PAGE_SIZE: break
                 start+=PAGE_SIZE
-        log.info("Full fetch complete — %d articles total (used %d calls)", len(articles), 1 + (len(articles)//PAGE_SIZE))
+        log.info("Full fetch complete — %d articles total (used %d calls)", len(articles), api_calls_used)
 
     diff=compute_diff(old, profile, articles)
     now=datetime.now(timezone.utc).isoformat()
