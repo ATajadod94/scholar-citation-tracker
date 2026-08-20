@@ -1,28 +1,19 @@
 #!/usr/bin/env python3
 """
-Scholar Citation Tracker — Optimized
-=====================================
-Minimizes SerpAPI usage to stay within free tier (100 / month):
+Scholar Citation Tracker — Optimized + Resilient
+===============================================
+Goals:
+- 1 API call when no citation change (was 6)
+- Daily schedule → ~30 calls/mo (free tier 100)
+- Never wipes data on failure — atomic writes + persistent state/log/db for resume
 
-- Default: 1 call per run (profile + first 100 articles)
-- Only paginates if profile shows >100 articles AND we need full diff
-- Tiered strategy:
-  1. Fetch profile (1 call). Gives total_citations/h_index/i10 + first 100 articles.
-  2. If total unchanged vs stored -> exit early after dashboard regen (0 extra calls)
-  3. If total changed -> fetch extra pages only until 500 or empty (max +5)
-
-With daily schedule: worst 6 calls/day = ~180/month < 100 if change rare.
-But with caching early exit: avg 1/day = ~30/month → fits free tier with headroom.
-
-Also adds:
-- Backoff & quota detection: error containing "quota" / "exceeded" / "limit"
-  writes friendly summary and exits 0 (no workflow failure).
-- Reuses profile articles as page 0 to avoid duplicate fetch.
-- Reduced history trim, etc preserved.
-
-Original constants kept.
+State:
+  data/tracker_state.json — last success, failures, monthly usage
+  data/run_log.jsonl     — 500-line rolling log, easy to tail
+  data/tracker.db        — sqlite, survives JSON corruption, 365 runs max
 """
-import json, os, sys, smtplib, logging, time
+
+import json, os, sys, smtplib, logging, time, sqlite3
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timezone
@@ -46,13 +37,17 @@ DB_FILE = Path(__file__).resolve().parent.parent / "data" / "tracker.db"
 MAX_ARTICLES = 500
 PAGE_SIZE = 100
 
-# --- resilient state helpers ---
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+log = logging.getLogger(__name__)
+
+# --- resilient helpers ---
 def load_state():
     if STATE_FILE.exists():
         try:
             with open(STATE_FILE) as f:
                 return json.load(f)
-        except: pass
+        except Exception:
+            pass
     return {
         "last_run_at": None,
         "last_success_at": None,
@@ -67,44 +62,38 @@ def load_state():
 
 def save_state(state):
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    tmp=STATE_FILE.with_suffix('.tmp')
+    tmp = STATE_FILE.with_suffix('.tmp')
     with open(tmp,'w') as f:
         json.dump(state,f,indent=2)
     tmp.replace(STATE_FILE)
 
 def append_log(entry: dict):
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
-    # cap file to 500 lines to keep repo small
     with open(LOG_FILE,'a') as f:
         f.write(json.dumps(entry, ensure_ascii=False)+"\n")
     try:
-        lines=LOG_FILE.read_text().splitlines()
-        if len(lines)>500:
+        lines = LOG_FILE.read_text().splitlines()
+        if len(lines) > 500:
             LOG_FILE.write_text("\n".join(lines[-500:])+"\n")
-    except: pass
+    except Exception:
+        pass
 
 def update_db(run_entry):
-    """tiny sqlite db so history isn't lost if json gets clobbered"""
     try:
-        import sqlite3
         DB_FILE.parent.mkdir(parents=True, exist_ok=True)
-        con=sqlite3.connect(DB_FILE)
+        con = sqlite3.connect(DB_FILE)
         con.execute("CREATE TABLE IF NOT EXISTS runs (id INTEGER PRIMARY KEY AUTOINCREMENT, ts TEXT, status TEXT, total INTEGER, h INTEGER, i10 INTEGER, api_calls INTEGER, error TEXT)")
         con.execute("INSERT INTO runs (ts,status,total,h,i10,api_calls,error) VALUES (?,?,?,?,?,?,?)",
                     (run_entry.get('ts'), run_entry.get('status'), run_entry.get('total'), run_entry.get('h'), run_entry.get('i10'), run_entry.get('api_calls'), run_entry.get('error')))
         con.commit()
-        # keep last 365 runs only
         con.execute("DELETE FROM runs WHERE id NOT IN (SELECT id FROM runs ORDER BY id DESC LIMIT 365)")
-        con.commit(); con.close()
+        con.commit()
+        con.close()
     except Exception as e:
         log.warning("DB write failed: %s", e)
 
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-log = logging.getLogger(__name__)
-
+# --- SerpAPI ---
 def serpapi_get(params, retries=2):
-    """GET SerpAPI with retry and quota detection."""
     if not SERPAPI_KEY:
         log.error("SERPAPI_KEY not set")
         sys.exit(1)
@@ -117,26 +106,23 @@ def serpapi_get(params, retries=2):
             resp.raise_for_status()
             data = resp.json()
             if "error" in data:
-                err = data["error"]
-                # quota / limit -> graceful exit
-                lower = str(err).lower()
-                if any(k in lower for k in ["quota","limit","exceeded","credits","rate"]):
+                err = str(data["error"])
+                low = err.lower()
+                if any(k in low for k in ["quota","limit","exceeded","credits","rate"]):
                     log.warning("SerpAPI quota/limit hit: %s", err)
                     summary = os.environ.get("GITHUB_STEP_SUMMARY","")
                     if summary:
                         try:
                             with open(summary,"a") as f:
                                 f.write(f"## ⚠️ SerpAPI quota reached\n\n{err}\n\nWorkflow will retry next schedule. No data changed.\n")
-                        except: pass
-                    # exit 0 so workflow doesn't show as failed; we keep old data
+                        except Exception:
+                            pass
                     sys.exit(0)
-                else:
-                    log.error("SerpAPI error: %s", err)
-                    # retryable if tmp?
-                    if attempt < retries:
-                        time.sleep(2**attempt)
-                        continue
-                    sys.exit(1)
+                log.error("SerpAPI error: %s", err)
+                if attempt < retries:
+                    time.sleep(2**attempt)
+                    continue
+                sys.exit(1)
             return data
         except requests.RequestException as e:
             last_err = e
@@ -148,7 +134,7 @@ def serpapi_get(params, retries=2):
     if last_err:
         raise last_err
 
-def fetch_scholar_profile() -> dict:
+def fetch_scholar_profile():
     log.info("Fetching profile (1 API call) …")
     return serpapi_get({
         "engine": "google_scholar_author",
@@ -157,7 +143,7 @@ def fetch_scholar_profile() -> dict:
         "num": str(PAGE_SIZE),
     })
 
-def fetch_extra_articles(start_offset) -> list:
+def fetch_extra_articles(start_offset):
     log.info("Fetching extra page offset %d …", start_offset)
     data = serpapi_get({
         "engine": "google_scholar_author",
@@ -169,14 +155,15 @@ def fetch_extra_articles(start_offset) -> list:
     })
     return data.get("articles", [])
 
-def load_previous_data() -> dict:
+# --- data ---
+def load_previous_data():
     if DATA_FILE.exists():
-        with open(DATA_FILE,"r") as f: return json.load(f)
+        with open(DATA_FILE,"r") as f:
+            return json.load(f)
     return {"scholar_id":SCHOLAR_ID,"name":SCHOLAR_NAME,"last_checked":None,"total_citations":0,"h_index":0,"i10_index":0,"articles":[],"history":[]}
 
 def save_data(data: dict):
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
-    # atomic write to avoid corrupt on failure
     tmp = DATA_FILE.with_suffix('.tmp')
     with open(tmp,"w") as f:
         json.dump(data,f,indent=2,ensure_ascii=False)
@@ -191,62 +178,62 @@ def compute_diff(old_data, profile, articles):
         if "citations" in row: new_total=row["citations"].get("all",0)
         if "h_index" in row: new_h=row["h_index"].get("all",0)
         if "i10_index" in row: new_i10=row["i10_index"].get("all",0)
-    old_total=old_data.get("total_citations",0); old_h=old_data.get("h_index",0); old_i10=old_data.get("i10_index",0)
-    old_articles_map={a.get("title","").strip().lower(): a for a in old_data.get("articles",[]) if a.get("title")}
-    new_citations_articles=[]
+    old_total=old_data.get("total_citations",0)
+    old_map={a.get("title","").strip().lower(): a for a in old_data.get("articles",[]) if a.get("title")}
+    new_cits=[]
     for a in articles:
-        title=a.get("title","").strip(); key=title.lower()
-        raw=a.get("cited_by"); new_count=raw.get("value",0) if isinstance(raw,dict) else 0
+        title=a.get("title","").strip()
+        key=title.lower()
+        raw=a.get("cited_by")
+        new_count=raw.get("value",0) if isinstance(raw,dict) else 0
         new_count=new_count if isinstance(new_count,(int,float)) and new_count is not None else 0
-        old_article=old_articles_map.get(key); old_count=old_article.get("citation_count",0) if old_article else 0
+        old_art=old_map.get(key)
+        old_count=old_art.get("citation_count",0) if old_art else 0
         if int(new_count)>int(old_count):
-            new_citations_articles.append({"title":title,"old_count":old_count,"new_count":new_count,"gained":new_count-old_count,"year":a.get("year","")})
-    return {"total_citations":{"old":old_total,"new":new_total,"gained":new_total-old_total},"h_index":{"old":old_h,"new":new_h},"i10_index":{"old":old_i10,"new":new_i10},"articles_with_new_citations":new_citations_articles,"has_changes":new_total>old_total}
+            new_cits.append({"title":title,"old_count":old_count,"new_count":new_count,"gained":new_count-old_count,"year":a.get("year","")})
+    return {"total_citations":{"old":old_total,"new":new_total,"gained":new_total-old_total},"h_index":{"old":old_data.get("h_index",0),"new":new_h},"i10_index":{"old":old_data.get("i10_index",0),"new":new_i10},"articles_with_new_citations":new_cits,"has_changes":new_total>old_total}
 
 def build_email_html(diff):
-    total=diff["total_citations"]; articles=diff["articles_with_new_citations"]
-    articles_sorted=sorted(articles,key=lambda x:x["gained"],reverse=True)
-    rows="".join([f"""<tr><td style="padding:10px 15px;border-bottom:1px solid #eee;font-size:14px;color:#333">{a['title']} <span style="color:#888;font-size:12px">({a['year']})</span></td><td style="padding:10px 15px;border-bottom:1px solid #eee;text-align:center">{a['old_count']}</td><td style="padding:10px 15px;border-bottom:1px solid #eee;text-align:center">{a['new_count']}</td><td style="padding:10px 15px;border-bottom:1px solid #eee;text-align:center"><span style="background:#e8f5e9;color:#2e7d32;padding:2px 8px;border-radius:12px;font-weight:bold">+{a['gained']}</span></td></tr>""" for a in articles_sorted[:20]])
-    return f"""<!DOCTYPE html><html><head><meta charset="utf-8"></head><body style="margin:0;padding:0;background:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"><div style="max-width:600px;margin:0 auto;padding:20px"><div style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);border-radius:12px 12px 0 0;padding:30px;text-align:center"><h1 style="color:#fff;margin:0;font-size:24px">🎉 New Citations Alert!</h1><p style="color:rgba(255,255,255,0.9);margin:10px 0 0 0;font-size:16px">Congratulations, {SCHOLAR_NAME}!</p></div><div style="background:#fff;padding:30px;border-radius:0 0 12px 12px;box-shadow:0 2px 10px rgba(0,0,0,0.1)"><p style="font-size:16px;color:#333;line-height:1.6">Great news! Your profile has received <strong style="color:#667eea">+{total['gained']} new citation{'s' if total['gained']!=1 else ''}</strong> since last check.</p><div style="display:flex;gap:10px;margin:20px 0"><div style="flex:1;background:#f8f9ff;border-radius:8px;padding:15px;text-align:center"><div style="font-size:28px;font-weight:bold;color:#667eea">{total['new']}</div><div style="font-size:12px;color:#888;margin-top:4px">Total Citations</div></div><div style="flex:1;background:#f8f9ff;border-radius:8px;padding:15px;text-align:center"><div style="font-size:28px;font-weight:bold;color:#667eea">{diff['h_index']['new']}</div><div style="font-size:12px;color:#888;margin-top:4px">h-index</div></div><div style="flex:1;background:#f8f9ff;border-radius:8px;padding:15px;text-align:center"><div style="font-size:28px;font-weight:bold;color:#667eea">{diff['i10_index']['new']}</div><div style="font-size:12px;color:#888;margin-top:4px">i10-index</div></div></div>{'<h3 style="color:#333;margin-top:25px">Papers with New Citations</h3><table style="width:100%;border-collapse:collapse;margin-top:10px"><thead><tr style="background:#f8f9ff"><th style="padding:10px 15px;text-align:left;font-size:13px;color:#666;font-weight:600">Paper</th><th style="padding:10px 15px;text-align:center;font-size:13px;color:#666;font-weight:600">Before</th><th style="padding:10px 15px;text-align:center;font-size:13px;color:#666;font-weight:600">After</th><th style="padding:10px 15px;text-align:center;font-size:13px;color:#666;font-weight:600">New</th></tr></thead><tbody>'+rows+'</tbody></table>' if rows else ''}<div style="margin-top:30px;padding-top:20px;border-top:1px solid #eee;text-align:center"><a href="{SCHOLAR_URL}" style="display:inline-block;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;text-decoration:none;padding:12px 30px;border-radius:25px;font-weight:bold;font-size:14px">View Google Scholar Profile</a><p style="font-size:12px;color:#999;margin-top:15px">Checked at {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}<br>Optimized tracker: 1 call when no change, ≤6 when full refresh</p></div></div></div></body></html>"""
+    total=diff["total_citations"]; arts=sorted(diff["articles_with_new_citations"], key=lambda x:x["gained"], reverse=True)
+    rows="".join([f"<tr><td style='padding:10px 15px;border-bottom:1px solid #eee'>{a['title']} <span style='color:#888'>({a['year']})</span></td><td style='padding:10px 15px;text-align:center'>{a['old_count']}</td><td style='padding:10px 15px;text-align:center'>{a['new_count']}</td><td style='padding:10px 15px;text-align:center'><span style='background:#e8f5e9;color:#2e7d32;padding:2px 8px;border-radius:12px'>+{a['gained']}</span></td></tr>" for a in arts[:20]])
+    return f"<!DOCTYPE html><html><body>Great news! +{total['gained']} new citations. Total {total['new']} h-index {diff['h_index']['new']} i10 {diff['i10_index']['new']}<br>{rows}<br><a href='{SCHOLAR_URL}'>Profile</a></body></html>"
 
 def send_email(diff):
     if not SENDER_EMAIL or not SENDER_PASSWORD:
         log.warning("Email creds not configured — skipping")
         return
     total=diff["total_citations"]
-    subject=f"🎉 +{total['gained']} New Citation{'s' if total['gained']!=1 else ''} — Now at {total['new']} Total!"
+    subject=f"🎉 +{total['gained']} New Citations — Now at {total['new']} Total!"
     msg=MIMEMultipart("alternative"); msg["Subject"]=subject; msg["From"]=SENDER_EMAIL; msg["To"]=RECIPIENT_EMAIL
-    plain=f"Congratulations {SCHOLAR_NAME}! +{total['gained']} new citations. Total {total['new']} h-index {diff['h_index']['new']} i10 {diff['i10_index']['new']}\nProfile: {SCHOLAR_URL}\n"
+    plain=f"Congratulations {SCHOLAR_NAME}! +{total['gained']} new citations. Total {total['new']}\n{SCHOLAR_URL}\n"
     msg.attach(MIMEText(plain,"plain")); msg.attach(MIMEText(build_email_html(diff),"html"))
-    try:
-        log.info("Sending email to %s …", RECIPIENT_EMAIL)
-        with smtplib.SMTP_SSL("smtp.gmail.com",465) as server:
-            server.login(SENDER_EMAIL,SENDER_PASSWORD); server.sendmail(SENDER_EMAIL,RECIPIENT_EMAIL,msg.as_string())
-        log.info("Email sent!")
-    except Exception as e:
-        log.error("Email failed: %s", e); raise
+    with smtplib.SMTP_SSL("smtp.gmail.com",465) as server:
+        server.login(SENDER_EMAIL,SENDER_PASSWORD)
+        server.sendmail(SENDER_EMAIL,RECIPIENT_EMAIL,msg.as_string())
+    log.info("Email sent!")
 
 def generate_dashboard_data(data, diff):
     out=Path(__file__).resolve().parent.parent / "docs"; out.mkdir(parents=True, exist_ok=True)
     dash={"name":data["name"],"affiliation":data.get("affiliation",""),"scholar_url":SCHOLAR_URL,"total_citations":data["total_citations"],"h_index":data["h_index"],"i10_index":data["i10_index"],"last_checked":data["last_checked"],"articles":data["articles"][:50],"history":data.get("history",[])[-90:],"latest_diff":{"gained":diff["total_citations"]["gained"],"articles_count":len(diff["articles_with_new_citations"])} if diff["has_changes"] else None}
-    with open(out/"data.json","w") as f: json.dump(f,dash,indent=2,ensure_ascii=False)
+    with open(out/"data.json","w") as f:
+        json.dump(f,dash,indent=2,ensure_ascii=False)
     log.info("Dashboard written")
 
 def main():
-    log.info("="*60); log.info("Optimized Tracker — Starting"); log.info("="*60)
+    log.info("="*60)
+    log.info("Optimized Tracker — Starting")
+    log.info("="*60)
     state=load_state()
     state['total_runs']=state.get('total_runs',0)+1
     state['last_run_at']=datetime.now(timezone.utc).isoformat()
-    # monthly reset
     cur_month=datetime.now(timezone.utc).strftime('%Y-%m')
     if state.get('month')!=cur_month:
         state['month']=cur_month; state['monthly_api_calls']=0
     save_state(state)
     api_calls_used=0
     old=load_previous_data()
-    log.info("Prev total %d h %d", old.get("total_citations",0), old.get("h_index",0))
+    log.info("Prev total %d (state total %s)", old.get("total_citations",0), state.get("last_total_citations"))
 
-    # 1 call: profile includes stats + up to 100 articles
     try:
         profile=fetch_scholar_profile()
         api_calls_used+=1
@@ -256,9 +243,10 @@ def main():
         state["consecutive_failures"]=state.get("consecutive_failures",0)+1
         state["last_error"]=str(e)
         save_state(state)
-        append_log({"ts": state["last_run_at"], "status":"failure", "error":str(e), "api_calls":api_calls_used})
+        append_log({"ts":state["last_run_at"],"status":"failure","error":str(e),"api_calls":api_calls_used})
         update_db({"ts":state["last_run_at"],"status":"failure","total":old.get("total_citations"),"h":old.get("h_index"),"i10":old.get("i10_index"),"api_calls":api_calls_used,"error":str(e)})
         raise
+
     cited_by=profile.get("cited_by",{}); table=cited_by.get("table",[])
     cur_total=cur_h=cur_i10=0
     for row in table:
@@ -267,18 +255,12 @@ def main():
         if "i10_index" in row: cur_i10=row["i10_index"].get("all",0)
     log.info("Live total %d (prev %d)", cur_total, old.get("total_citations",0))
 
-    # Articles from first call
     articles=profile.get("articles",[])
     log.info("Got %d articles from profile call", len(articles))
 
-    # Early exit optimization: if total unchanged and we already have articles, skip extra pages
     if cur_total==old.get("total_citations",0) and cur_total!=0:
         log.info("No total change — skipping pagination (saving %d calls)", max(0, len(old.get("articles",[]))//100))
-        # Still rebuild diff with what we have to keep dashboard fresh
     else:
-        # Need full article list if citations increased OR article count grew
-        # Pagination only if profile hints more than what we have OR more than 100 total
-        # Scholar author API doesn't return total article count directly, but we can continue until empty
         if len(profile.get("articles",[]))>=PAGE_SIZE:
             start=PAGE_SIZE
             while start<=MAX_ARTICLES:
@@ -288,9 +270,11 @@ def main():
                 except Exception as e:
                     log.warning("Extra page failed at %d: %s", start, e)
                     break
-                if not extra: break
+                if not extra:
+                    break
                 articles.extend(extra)
-                if len(extra)<PAGE_SIZE: break
+                if len(extra)<PAGE_SIZE:
+                    break
                 start+=PAGE_SIZE
         log.info("Full fetch complete — %d articles total (used %d calls)", len(articles), api_calls_used)
 
@@ -303,17 +287,31 @@ def main():
 
     if diff["has_changes"]:
         log.info("🎉 +%d new", diff["total_citations"]["gained"])
-        send_email(diff)
+        try:
+            send_email(diff)
+        except Exception as e:
+            log.warning("email failed but continuing: %s", e)
         sf=os.environ.get("GITHUB_STEP_SUMMARY","")
         if sf:
             with open(sf,"a") as f:
-                f.write(f"## 🎉 +{diff['total_citations']['gained']} New Citations!\n\n- Total {cur_total}\n- h {cur_h} i10 {cur_i10}\n\nAPI calls used: {1 + (len(articles)//100 if cur_total!=old.get('total_citations',0) else 0)} (optimized from 6)\n")
+                f.write(f"## 🎉 +{diff['total_citations']['gained']} New Citations!\n\n- Total {cur_total}\n- h {cur_h} i10 {cur_i10}\n\nAPI calls used: {api_calls_used} (optimized from 6)\n")
     else:
-        log.info("No change — 1 API call used")
+        log.info("No change — %d API call(s) used", api_calls_used)
         sf=os.environ.get("GITHUB_STEP_SUMMARY","")
         if sf:
             with open(sf,"a") as f:
-                f.write(f"## ✅ No change — {cur_total} citations\n\nAPI calls: 1 (saved 5)\n")
-    log.info("Done")
+                f.write(f"## ✅ No change — {cur_total} citations\n\nAPI calls: {api_calls_used} (saved 5)\n")
 
-if __name__=="__main__": main()
+    state["consecutive_failures"]=0
+    state["last_success_at"]=state["last_run_at"]
+    state["last_total_citations"]=cur_total
+    state["last_error"]=None
+    state["total_api_calls"]=state.get("total_api_calls",0)+api_calls_used
+    state["monthly_api_calls"]=state.get("monthly_api_calls",0)+api_calls_used
+    save_state(state)
+    append_log({"ts":state["last_run_at"],"status":"success","total":cur_total,"h":cur_h,"i10":cur_i10,"api_calls":api_calls_used,"gained":diff["total_citations"]["gained"] if diff["has_changes"] else 0})
+    update_db({"ts":state["last_run_at"],"status":"success","total":cur_total,"h":cur_h,"i10":cur_i10,"api_calls":api_calls_used,"error":None})
+    log.info("Done — no repeat loop, state/log/db updated")
+
+if __name__=="__main__":
+    main()

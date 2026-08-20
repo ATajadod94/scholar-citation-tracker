@@ -1,15 +1,10 @@
 name: Check Scholar Citations
 
 on:
-  # Run once per day (03:00 UTC) — optimized to stay in SerpAPI free tier (100/month)
-  # Previously every 6h used 720 calls/month → quota failures. Now ~30-40/month avg.
+  # Daily 03:00 UTC — 30 calls/mo avg (was every 6h = 720/mo → quota fail)
   schedule:
     - cron: '0 3 * * *'
-
-  # Allow manual trigger
   workflow_dispatch:
-
-  # Run on push only when code changes, not data commits (filtered)
   push:
     branches: [main]
     paths:
@@ -29,6 +24,7 @@ concurrency:
 jobs:
   check-citations:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -50,16 +46,38 @@ jobs:
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
         run: python scripts/check_citations.py
 
-      - name: Commit updated data
+      - name: Show resume state (for debugging)
+        if: always()
+        run: |
+          echo "=== tracker_state.json ==="; cat data/tracker_state.json || echo "no state yet"
+          echo "=== last log line ==="; tail -n 5 data/run_log.jsonl || echo "no log"
+          echo "=== db runs count ==="; python3 -c "import sqlite3,pathlib; p=pathlib.Path('data/tracker.db'); print('db exists',p.exists()); 
+            import sqlite3; conn=sqlite3.connect('data/tracker.db') if p.exists() else None; print(list(conn.execute('SELECT count(*) FROM runs')) if conn else 'no db')" || true
+
+      - name: Commit updated data (including state/db/log)
+        if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/ docs/
-          git diff --staged --quiet || git commit -m "📊 Update citation data [$(date -u '+%Y-%m-%d %H:%M UTC')] - optimized (1 call)"
-          git push
+          # force add db if gitignored
+          git add -f data/tracker.db data/tracker_state.json data/run_log.jsonl 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "📊 Update citation data [$(date -u '+%Y-%m-%d %H:%M UTC')] - optimized (1 call) + state"
+          git push || echo "no changes to push"
+
+      - name: Commit failure state (so we resume without reset)
+        if: failure()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          # Even on failure, persist state/log so next run knows where to pick up
+          git add data/tracker_state.json data/run_log.jsonl data/tracker.db 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "📝 Log failure state [$(date -u '+%Y-%m-%d %H:%M UTC')] - will resume"
+          git push || echo "no state to push"
 
   deploy:
     needs: check-citations
+    if: success()
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -70,7 +88,7 @@ jobs:
         with:
           ref: main
       - name: Pull latest changes
-        run: git pull origin main
+        run: git pull origin main --ff-only || true
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
