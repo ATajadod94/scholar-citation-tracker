@@ -1,6 +1,6 @@
 # Scholar Citation Tracker
 
-A production-ready, fully automated system that monitors **Negar Arabzadeh's** Google Scholar profile for new citations and sends beautifully formatted congratulatory email notifications. The project includes a live dashboard hosted on GitHub Pages and a GitHub Actions workflow that runs every 6 hours.
+A production-ready, fully automated system that monitors **Negar Arabzadeh's** Google Scholar profile for new citations and sends beautifully formatted congratulatory email notifications. The project includes a live dashboard hosted on GitHub Pages and a GitHub Actions workflow that runs daily (optimized).
 
 ---
 
@@ -8,7 +8,7 @@ A production-ready, fully automated system that monitors **Negar Arabzadeh's** G
 
 | Feature | Description |
 |---|---|
-| **Automated Monitoring** | GitHub Actions cron job checks for new citations every 6 hours |
+| **Automated Monitoring** | GitHub Actions cron job checks once daily (03:00 UTC) – optimized to 1 API call/run |
 | **Email Notifications** | Sends a beautifully formatted HTML email when new citations are detected |
 | **Live Dashboard** | GitHub Pages site with real-time citation stats, growth chart, and publication list |
 | **Citation History** | Tracks citation growth over time with interactive Chart.js visualization |
@@ -60,7 +60,7 @@ cd scholar-citation-tracker
 
 1. Go to [serpapi.com](https://serpapi.com/) and create a free account
 2. Navigate to your [API Key page](https://serpapi.com/manage-api-key)
-3. Copy your API key (free tier includes 100 searches/month — more than enough for 4 checks/day)
+3. Copy your API key (free tier includes 100 searches/month — optimized to ~30 searches/month (1/day) to stay within limits)
 
 ### 3. Set Up Gmail App Password
 
@@ -157,9 +157,9 @@ Edit `.github/workflows/check-citations.yml` and modify the cron schedule:
 
 ```yaml
 schedule:
-  - cron: '0 */6 * * *'  # Every 6 hours
-  # - cron: '0 */12 * * *'  # Every 12 hours
-  # - cron: '0 9 * * *'     # Daily at 9 AM UTC
+  - cron: '0 3 * * *'      # Daily at 3 AM UTC (optimized)
+  # - cron: '0 */12 * * *'  # Every 12 hours (60/month)
+  # - cron: '0 */6 * * *'   # Every 6 hours (720/month - exceeds free tier, not recommended)
 ```
 
 ### Use a Different Email Provider
@@ -210,7 +210,7 @@ Verify that `SENDER_EMAIL` and `SENDER_PASSWORD` secrets are set correctly. The 
 The dashboard populates after the first successful workflow run. Trigger the workflow manually from the Actions tab.
 
 **Q: SerpAPI returns an error**
-Check your SerpAPI key is valid and you haven't exceeded the free tier limit (100 searches/month). Each check uses 2-3 API calls, so 4 checks/day uses about 240-360/month. Consider upgrading to a paid plan or reducing check frequency.
+Check your SerpAPI key is valid and you haven't exceeded the free tier limit (100 searches/month). Each check now uses 1 API call when no citations changed (avg), up to 6 only when citations grow. Daily schedule ≈30/month, well within 100 free limit.
 
 **Q: GitHub Pages is not deploying**
 Ensure GitHub Pages is configured to use "GitHub Actions" as the source in Settings → Pages.

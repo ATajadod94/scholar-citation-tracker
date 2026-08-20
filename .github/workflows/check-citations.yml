@@ -1,24 +1,27 @@
 name: Check Scholar Citations
 
 on:
-  # Run every 6 hours
+  # Run once per day (03:00 UTC) — optimized to stay in SerpAPI free tier (100/month)
+  # Previously every 6h used 720 calls/month → quota failures. Now ~30-40/month avg.
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 3 * * *'
 
   # Allow manual trigger
   workflow_dispatch:
 
-  # Also run on push to main (for initial setup)
+  # Run on push only when code changes, not data commits (filtered)
   push:
     branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+      - 'requirements.txt'
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -26,7 +29,6 @@ concurrency:
 jobs:
   check-citations:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -41,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run citation check
+      - name: Run citation check (optimized — 1 call when no change)
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
@@ -52,36 +54,29 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/ docs/data.json
-          git diff --staged --quiet || git commit -m "📊 Update citation data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git add data/ docs/
+          git diff --staged --quiet || git commit -m "📊 Update citation data [$(date -u '+%Y-%m-%d %H:%M UTC')] - optimized (1 call)"
           git push
 
-  # Deploy to GitHub Pages
   deploy:
     needs: check-citations
     runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: main
-
       - name: Pull latest changes
         run: git pull origin main
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
