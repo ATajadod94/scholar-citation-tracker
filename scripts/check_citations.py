@@ -216,7 +216,7 @@ def generate_dashboard_data(data, diff):
     out=Path(__file__).resolve().parent.parent / "docs"; out.mkdir(parents=True, exist_ok=True)
     dash={"name":data["name"],"affiliation":data.get("affiliation",""),"scholar_url":SCHOLAR_URL,"total_citations":data["total_citations"],"h_index":data["h_index"],"i10_index":data["i10_index"],"last_checked":data["last_checked"],"articles":data["articles"][:50],"history":data.get("history",[])[-90:],"latest_diff":{"gained":diff["total_citations"]["gained"],"articles_count":len(diff["articles_with_new_citations"])} if diff["has_changes"] else None}
     with open(out/"data.json","w") as f:
-        json.dump(f,dash,indent=2,ensure_ascii=False)
+        json.dump(dash,f,indent=2,ensure_ascii=False)
     log.info("Dashboard written")
 
 def main():
