@@ -2,14 +2,14 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 1996,
+  "total_citations": 2000,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-08-21T03:54:13.141890+00:00",
+  "last_checked": "2026-08-22T03:46:10.106291+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 127,
+      "citation_count": 128,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -30,7 +30,7 @@
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 87,
+      "citation_count": 88,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
       "authors": "N Arabzadeh, X Yan, CLA Clarke"
@@ -86,14 +86,14 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 47,
+      "citation_count": 48,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 42,
+      "citation_count": 43,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-14T08:15:54.620222+00:00",
-      "total_citations": 1940,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-14T13:54:39.358401+00:00",
       "total_citations": 1940,
@@ -898,7 +892,16 @@
       "total_citations": 1996,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-08-22T03:46:10.106291+00:00",
+      "total_citations": 2000,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 4,
+    "articles_count": 5
+  }
 }
