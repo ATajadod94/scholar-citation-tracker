@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2003,
+  "total_citations": 2004,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-08-27T13:59:09.825247+00:00",
+  "last_checked": "2026-08-28T15:10:35.319880+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 72,
+      "citation_count": 73,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-15T19:18:15.291164+00:00",
-      "total_citations": 1940,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-16T02:55:29.168540+00:00",
       "total_citations": 1940,
@@ -898,7 +892,16 @@
       "total_citations": 2003,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-08-28T15:10:35.319880+00:00",
+      "total_citations": 2004,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1,
+    "articles_count": 2
+  }
 }
