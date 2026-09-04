@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2011,
+  "total_citations": 2012,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-09-03T07:55:01.880419+00:00",
+  "last_checked": "2026-09-04T07:51:13.932397+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -16,7 +16,7 @@
     },
     {
       "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
-      "citation_count": 91,
+      "citation_count": 92,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
       "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-17T13:47:45.745519+00:00",
-      "total_citations": 1945,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-17T19:16:55.036956+00:00",
       "total_citations": 1945,
@@ -898,7 +892,16 @@
       "total_citations": 2011,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-09-04T07:51:13.932397+00:00",
+      "total_citations": 2012,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1,
+    "articles_count": 2
+  }
 }
