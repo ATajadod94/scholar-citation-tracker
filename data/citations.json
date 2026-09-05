@@ -2,7 +2,7 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-09-04T07:51:13.932397+00:00",
+  "last_checked": "2026-09-05T07:32:07.888026+00:00",
   "total_citations": 2012,
   "h_index": 25,
   "i10_index": 55,
@@ -706,71 +706,9 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:SP6oXDckpogC",
       "authors": "N Arabzadeh, A Drozdov, M Bendersky, M Zaharia"
-    },
-    {
-      "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 54,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
-      "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
-    },
-    {
-      "title": "Neural embedding-based metrics for pre-retrieval query performance prediction",
-      "citation_count": 34,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:IjCSPb-OGe4C",
-      "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
-    },
-    {
-      "title": "WaterlooClarke at the Trec 2020 Conversational Assistant Track",
-      "citation_count": 0,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:YsMSGLbcyi4C",
-      "authors": "N Arabzadeh, CLA Clarke"
-    },
-    {
-      "title": "Geometric estimation of specificity within embedding spaces",
-      "citation_count": 21,
-      "year": "2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:qjMakFHDy7sC",
-      "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
-    },
-    {
-      "title": "Entity Retrieval Docker Image for OSIRRC at SIGIR 2019.",
-      "citation_count": 0,
-      "year": "2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:d1gkVwhDpl0C",
-      "authors": "N Arabzadeh"
-    },
-    {
-      "title": "Causal dependencies for future interest prediction on Twitter",
-      "citation_count": 14,
-      "year": "2018",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u-x6o8ySG0sC",
-      "authors": "N Arabzadeh, H Fani, F Zarrinkalam, A Navivala, E Bagheri"
-    },
-    {
-      "title": "Towards Automatically Optimizing Retrieval Augmented AI Systems",
-      "citation_count": 0,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:NhqRSupF_l8C",
-      "authors": "MZ Pan, N Arabzadeh, M Jacob, F Kazhamiaka, E Choukse, M Zaharia"
-    },
-    {
-      "title": "Restructuring the Corpus Makes RAG Work for Math",
-      "citation_count": 0,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
-      "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
     }
   ],
   "history": [
-    {
-      "date": "2026-03-22T06:58:24.435356+00:00",
-      "total_citations": 1492,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-22T13:02:58.835302+00:00",
       "total_citations": 1496,
@@ -2951,6 +2889,12 @@
     },
     {
       "date": "2026-09-04T07:51:13.932397+00:00",
+      "total_citations": 2012,
+      "h_index": 25,
+      "i10_index": 55
+    },
+    {
+      "date": "2026-09-05T07:32:07.888026+00:00",
       "total_citations": 2012,
       "h_index": 25,
       "i10_index": 55
