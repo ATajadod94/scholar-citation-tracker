@@ -2,14 +2,14 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2012,
+  "total_citations": 2013,
   "h_index": 25,
   "i10_index": 55,
-  "last_checked": "2026-09-05T07:32:07.888026+00:00",
+  "last_checked": "2026-09-06T07:46:08.853791+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 129,
+      "citation_count": 130,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-18T02:50:26.885960+00:00",
-      "total_citations": 1945,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-18T07:59:15.197341+00:00",
       "total_citations": 1945,
@@ -898,7 +892,16 @@
       "total_citations": 2012,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-09-06T07:46:08.853791+00:00",
+      "total_citations": 2013,
+      "h_index": 25,
+      "i10_index": 55
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1,
+    "articles_count": 2
+  }
 }
