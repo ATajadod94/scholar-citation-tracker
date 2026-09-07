@@ -2,14 +2,14 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2013,
+  "total_citations": 2022,
   "h_index": 25,
-  "i10_index": 55,
-  "last_checked": "2026-09-06T07:46:08.853791+00:00",
+  "i10_index": 56,
+  "last_checked": "2026-09-07T08:06:15.148420+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 130,
+      "citation_count": 132,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -51,7 +51,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 75,
+      "citation_count": 78,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -93,7 +93,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 44,
+      "citation_count": 45,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -330,6 +330,20 @@
       "authors": "N Arabzadeh, J Kiseleva, Q Wu, C Wang, A Awadallah, V Dibia, ..."
     },
     {
+      "title": "De-biasing relevance judgements for fair ranking",
+      "citation_count": 13,
+      "year": "2023",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:dhFuZR0502QC",
+      "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, B Mitra, M Zihayat, E Bagheri"
+    },
+    {
+      "title": "Adversarial attacks against neural ranking models via in-context learning",
+      "citation_count": 12,
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:dfsIfKJdRG4C",
+      "authors": "A Bigdeli, N Arabzadeh, E Bagheri, CLA Clarke"
+    },
+    {
       "title": "BertPE: a BERT-based pre-retrieval estimator for query performance prediction",
       "citation_count": 12,
       "year": "2024",
@@ -337,34 +351,14 @@
       "authors": "M Khodabakhsh, F Zarrinkalam, N Arabzadeh"
     },
     {
-      "title": "De-biasing relevance judgements for fair ranking",
-      "citation_count": 12,
-      "year": "2023",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:dhFuZR0502QC",
-      "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, B Mitra, M Zihayat, E Bagheri"
-    },
-    {
       "title": "Preference-based offline evaluation",
       "citation_count": 12,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:4DMP91E08xMC",
       "authors": "CLA Clarke, F Diaz, N Arabzadeh"
-    },
-    {
-      "title": "Learning to solve voxel building embodied tasks from pixels and natural language instructions",
-      "citation_count": 12,
-      "year": "2022",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:4TOpqqG69KYC",
-      "authors": "A Skrynnik, Z Volovikova, MA Côté, A Voronov, A Zholus, N Arabzadeh, ..."
     }
   ],
   "history": [
-    {
-      "date": "2026-07-18T07:59:15.197341+00:00",
-      "total_citations": 1945,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-18T13:25:09.687036+00:00",
       "total_citations": 1945,
@@ -898,10 +892,16 @@
       "total_citations": 2013,
       "h_index": 25,
       "i10_index": 55
+    },
+    {
+      "date": "2026-09-07T08:06:15.148420+00:00",
+      "total_citations": 2022,
+      "h_index": 25,
+      "i10_index": 56
     }
   ],
   "latest_diff": {
-    "gained": 1,
-    "articles_count": 2
+    "gained": 9,
+    "articles_count": 7
   }
 }
