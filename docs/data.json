@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2022,
+  "total_citations": 2025,
   "h_index": 25,
   "i10_index": 56,
-  "last_checked": "2026-09-08T07:56:48.089816+00:00",
+  "last_checked": "2026-09-09T07:59:18.587511+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -43,18 +43,18 @@
       "authors": "S Huo, N Arabzadeh, C Clarke"
     },
     {
+      "title": "Measuring agents in production",
+      "citation_count": 79,
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
+      "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
+    },
+    {
       "title": "Shallow pooling for sparse labels",
       "citation_count": 79,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:LkGwnXOMwfcC",
       "authors": "N Arabzadeh, A Vtyurina, X Yan, CLA Clarke"
-    },
-    {
-      "title": "Measuring agents in production",
-      "citation_count": 78,
-      "year": "2025",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
-      "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
     },
     {
       "title": "Query performance prediction: From ad-hoc to conversational search",
@@ -65,14 +65,14 @@
     },
     {
       "title": "Generative information retrieval evaluation",
-      "citation_count": 57,
+      "citation_count": 58,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
       "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
     },
     {
       "title": "Ranked list truncation for large language model-based re-ranking",
-      "citation_count": 54,
+      "citation_count": 55,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
       "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-18T19:11:06.250320+00:00",
-      "total_citations": 1945,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-19T03:20:59.231355+00:00",
       "total_citations": 1948,
@@ -898,7 +892,16 @@
       "total_citations": 2022,
       "h_index": 25,
       "i10_index": 56
+    },
+    {
+      "date": "2026-09-09T07:59:18.587511+00:00",
+      "total_citations": 2025,
+      "h_index": 25,
+      "i10_index": 56
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 3,
+    "articles_count": 4
+  }
 }
