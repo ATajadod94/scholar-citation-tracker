@@ -2,14 +2,14 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2025,
+  "total_citations": 2029,
   "h_index": 25,
   "i10_index": 56,
-  "last_checked": "2026-09-11T07:55:06.962134+00:00",
+  "last_checked": "2026-09-12T07:48:04.370894+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 132,
+      "citation_count": 134,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -72,7 +72,7 @@
     },
     {
       "title": "Ranked list truncation for large language model-based re-ranking",
-      "citation_count": 55,
+      "citation_count": 56,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
       "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
@@ -93,7 +93,7 @@
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 45,
+      "citation_count": 46,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-19T13:26:46.815904+00:00",
-      "total_citations": 1948,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-19T19:11:59.206892+00:00",
       "total_citations": 1948,
@@ -898,7 +892,16 @@
       "total_citations": 2025,
       "h_index": 25,
       "i10_index": 56
+    },
+    {
+      "date": "2026-09-12T07:48:04.370894+00:00",
+      "total_citations": 2029,
+      "h_index": 25,
+      "i10_index": 56
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 4,
+    "articles_count": 4
+  }
 }
