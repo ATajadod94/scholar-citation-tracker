@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-09-12T07:48:04.370894+00:00",
-  "total_citations": 2029,
+  "last_checked": "2026-09-13T08:09:04.063185+00:00",
+  "total_citations": 2037,
   "h_index": 25,
   "i10_index": 56,
   "articles": [
@@ -37,21 +37,21 @@
     },
     {
       "title": "Retrieving supporting evidence for generative question answering",
-      "citation_count": 85,
+      "citation_count": 86,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC",
       "authors": "S Huo, N Arabzadeh, C Clarke"
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 79,
+      "citation_count": 82,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
     },
     {
       "title": "Shallow pooling for sparse labels",
-      "citation_count": 79,
+      "citation_count": 80,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:LkGwnXOMwfcC",
       "authors": "N Arabzadeh, A Vtyurina, X Yan, CLA Clarke"
@@ -86,14 +86,14 @@
     },
     {
       "title": "Benchmarking LLM-based relevance judgment methods",
-      "citation_count": 48,
+      "citation_count": 49,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:zA6iFVUQeVQC",
       "authors": "N Arabzadeh, CLA Clarke"
     },
     {
       "title": "A human-ai comparative analysis of prompt sensitivity in llm-based relevance judgment",
-      "citation_count": 46,
+      "citation_count": 47,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:u_35RYKgDlwC",
       "authors": "N Arabzadeh, CLA Clarke"
@@ -596,6 +596,13 @@
       "authors": "S Sadeghian, A Daghighfarsoodeh, R Cheraghi, S Ebrahimi, ..."
     },
     {
+      "title": "Peerispect: Claim Verification in Scientific Peer Reviews",
+      "citation_count": 2,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:UxriW0iASnsC",
+      "authors": "A Ghorbanpour, S Sadeghian, A Daghighfarsoodeh, S Ebrahimi, ..."
+    },
+    {
       "title": "A reproducibility study of llm-based query reformulation",
       "citation_count": 1,
       "year": "2026",
@@ -615,13 +622,6 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:p2g8aNsByqUC",
       "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
-    },
-    {
-      "title": "Peerispect: Claim Verification in Scientific Peer Reviews",
-      "citation_count": 1,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:UxriW0iASnsC",
-      "authors": "A Ghorbanpour, S Sadeghian, A Daghighfarsoodeh, S Ebrahimi, ..."
     },
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -772,12 +772,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-24T07:11:41.468774+00:00",
-      "total_citations": 1498,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-24T13:23:43.489084+00:00",
       "total_citations": 1498,
@@ -2959,6 +2953,12 @@
     {
       "date": "2026-09-12T07:48:04.370894+00:00",
       "total_citations": 2029,
+      "h_index": 25,
+      "i10_index": 56
+    },
+    {
+      "date": "2026-09-13T08:09:04.063185+00:00",
+      "total_citations": 2037,
       "h_index": 25,
       "i10_index": 56
     }
