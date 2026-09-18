@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-09-17T08:30:58.406150+00:00",
-  "total_citations": 2041,
+  "last_checked": "2026-09-18T08:05:45.402674+00:00",
+  "total_citations": 2057,
   "h_index": 25,
   "i10_index": 56,
   "articles": [
@@ -16,7 +16,7 @@
     },
     {
       "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
-      "citation_count": 93,
+      "citation_count": 95,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
       "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
@@ -107,21 +107,21 @@
     },
     {
       "title": "Noisy perturbations for estimating query difficulty in dense retrievers",
-      "citation_count": 37,
+      "citation_count": 38,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC",
       "authors": "N Arabzadeh, R Hamidi Rad, M Khodabakhsh, E Bagheri"
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 36,
+      "citation_count": 37,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
     },
     {
       "title": "Neural embedding-based metrics for pre-retrieval query performance prediction",
-      "citation_count": 34,
+      "citation_count": 35,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:IjCSPb-OGe4C",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
@@ -156,7 +156,7 @@
     },
     {
       "title": "Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised Query Reformulation",
-      "citation_count": 30,
+      "citation_count": 31,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC",
       "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
@@ -316,6 +316,13 @@
       "authors": "N Arabzadeh, H Fani, F Zarrinkalam, A Navivala, E Bagheri"
     },
     {
+      "title": "BertPE: a BERT-based pre-retrieval estimator for query performance prediction",
+      "citation_count": 13,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:hMod-77fHWUC",
+      "authors": "M Khodabakhsh, F Zarrinkalam, N Arabzadeh"
+    },
+    {
       "title": "Context-aware query term difficulty estimation for performance prediction",
       "citation_count": 13,
       "year": "2024",
@@ -342,13 +349,6 @@
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:dfsIfKJdRG4C",
       "authors": "A Bigdeli, N Arabzadeh, E Bagheri, CLA Clarke"
-    },
-    {
-      "title": "BertPE: a BERT-based pre-retrieval estimator for query performance prediction",
-      "citation_count": 12,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:hMod-77fHWUC",
-      "authors": "M Khodabakhsh, F Zarrinkalam, N Arabzadeh"
     },
     {
       "title": "Preference-based offline evaluation",
@@ -428,6 +428,13 @@
       "authors": "N Arabzadeh, E Bagheri"
     },
     {
+      "title": "QueryGym: A Toolkit for Reproducible LLM-Based Query Reformulation",
+      "citation_count": 8,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:_xSYboBqXhAC",
+      "authors": "A Bigdeli, R Hamidi Rad, M Incesu, N Arabzadeh, C Clarke, E Bagheri"
+    },
+    {
       "title": "Query performance prediction: Theory, techniques and applications",
       "citation_count": 8,
       "year": "2025",
@@ -442,18 +449,18 @@
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
     },
     {
-      "title": "QueryGym: A Toolkit for Reproducible LLM-Based Query Reformulation",
-      "citation_count": 7,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:_xSYboBqXhAC",
-      "authors": "A Bigdeli, R Hamidi Rad, M Incesu, N Arabzadeh, C Clarke, E Bagheri"
-    },
-    {
       "title": "Empra: Embedding perturbation rank attack against neural ranking models",
       "citation_count": 7,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:M05iB0D1s5AC",
       "authors": "A Bigdeli, N Arabzadeh, E Bagheri, CLA Clarke"
+    },
+    {
+      "title": "ReFormeR: Learning and Applying Explicit Query Reformulation Patterns",
+      "citation_count": 7,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:nb7KW1ujOQ8C",
+      "authors": "A Bigdeli, M Incesu, N Arabzadeh, CLA Clarke, E Bagheri"
     },
     {
       "title": "Robust query performance prediction for dense retrievers via adaptive disturbance generation",
@@ -505,13 +512,6 @@
       "authors": "S Mohanty, N Arabzadeh, A Tupini, Y Sun, A Skrynnik, A Zholus, MA Côté, ..."
     },
     {
-      "title": "ReFormeR: Learning and Applying Explicit Query Reformulation Patterns",
-      "citation_count": 4,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:nb7KW1ujOQ8C",
-      "authors": "A Bigdeli, M Incesu, N Arabzadeh, CLA Clarke, E Bagheri"
-    },
-    {
       "title": "Query performance prediction using neural query space proximity",
       "citation_count": 4,
       "year": "2025",
@@ -554,6 +554,13 @@
       "authors": "M Tamannaee, N Arabzadeh, E Bagheri"
     },
     {
+      "title": "Peerprism: Peer evaluation expertise vs review-writing AI",
+      "citation_count": 3,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:dshw04ExmUIC",
+      "authors": "S Sadeghian, A Daghighfarsoodeh, R Cheraghi, S Ebrahimi, ..."
+    },
+    {
       "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality.",
       "citation_count": 3,
       "year": "2026",
@@ -589,11 +596,11 @@
       "authors": "A Ahmadvand, N Arabzadeh, J Kiseleva, PF Sanz, X Deng, S Jauhar, ..."
     },
     {
-      "title": "Peerprism: Peer evaluation expertise vs review-writing AI",
+      "title": "A reproducibility study of llm-based query reformulation",
       "citation_count": 2,
       "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:dshw04ExmUIC",
-      "authors": "S Sadeghian, A Daghighfarsoodeh, R Cheraghi, S Ebrahimi, ..."
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:uWQEDVKXjbEC",
+      "authors": "A Bigdeli, R Hamidi Rad, HS Le, M Incesu, N Arabzadeh, CLA Clarke, ..."
     },
     {
       "title": "Peerispect: Claim Verification in Scientific Peer Reviews",
@@ -603,13 +610,6 @@
       "authors": "A Ghorbanpour, S Sadeghian, A Daghighfarsoodeh, S Ebrahimi, ..."
     },
     {
-      "title": "A reproducibility study of llm-based query reformulation",
-      "citation_count": 1,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:uWQEDVKXjbEC",
-      "authors": "A Bigdeli, R Hamidi Rad, HS Le, M Incesu, N Arabzadeh, CLA Clarke, ..."
-    },
-    {
       "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
       "citation_count": 1,
       "year": "2026",
@@ -617,11 +617,25 @@
       "authors": "S Ebrahimi, S Sadeghian, A Ghorbanpour, N Arabzadeh, S Salamat, ..."
     },
     {
+      "title": "Natural Language Query to Configuration for Retrieval Agents",
+      "citation_count": 1,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:u9iWguZQMMsC",
+      "authors": "MZ Pan, N Arabzadeh, M Jacob, F Kazhamiaka, E Choukse, M Zaharia"
+    },
+    {
       "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
       "citation_count": 1,
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:p2g8aNsByqUC",
       "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
+    },
+    {
+      "title": "Can QPP Choose the Right Query Variant? Evaluating Query Variant Selection for RAG Pipelines",
+      "citation_count": 1,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:SP6oXDckpogC",
+      "authors": "N Arabzadeh, A Drozdov, M Bendersky, M Zaharia"
     },
     {
       "title": "Structure-Aware Pre-retrieval Performance Prediction on Query Affinity Graphs",
@@ -659,6 +673,27 @@
       "authors": "CLA Clarke, S Huo, N Arabzadeh"
     },
     {
+      "title": "Restructuring the Corpus Makes RAG Work for Math",
+      "citation_count": 1,
+      "year": "",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
+      "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
+    },
+    {
+      "title": "Route Me If You Can: A Benchmark for Query Reformulation Selection",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:tS2w5q8j5-wC",
+      "authors": "HS Le, N Arabzadeh, A Bigdeli, RH Rad, S Ebrahimi, CLA Clarke, ..."
+    },
+    {
+      "title": "Question's Gambit: The First Move Matters in Agentic Deep Search",
+      "citation_count": 0,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:vRqMK49ujn8C",
+      "authors": "RH Rad, A Bigdeli, N Arabzadeh, S Ebrahimi, CLA Clarke, B Fung, ..."
+    },
+    {
       "title": "What Happens When the Model Eats the Stack? Rethinking the Research Agenda for Data Agents to Withstand the Bitter Lesson",
       "citation_count": 0,
       "year": "2026",
@@ -673,39 +708,18 @@
       "authors": "N Arabzadeh, S Ebrahimi, A Daghighfarsoodeh, S Sadeghian, ..."
     },
     {
-      "title": "Failing Forward: Understanding Query Failure in Retrieval, Judgment, and Generation",
-      "citation_count": 0,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:738O_yMBCRsC",
-      "authors": "SM Hosseini, N Arabzadeh, MH Saliminabi, D Androutsos, M Zihayat, ..."
+      "title": "Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised Query Reformulation",
+      "citation_count": 31,
+      "year": "2021",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC",
+      "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
-      "title": "Characterizing Agents in Production",
-      "citation_count": 0,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:WbkHhVStYXYC",
-      "authors": "M Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
-    },
-    {
-      "title": "Multi-Agent Transactive Memory",
-      "citation_count": 0,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:Tiz5es2fbqcC",
-      "authors": "TE Kim, X He, D Jain, A Agrawal, N Arabzadeh, F Diaz"
-    },
-    {
-      "title": "ADORE: Iterative Query Expansion with Retrieval-Grounded Relevance Feedback",
-      "citation_count": 0,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:XiSMed-E-HIC",
-      "authors": "A Bigdeli, N Arabzadeh, RH Rad, S Ebrahimi, CLA Clarke, E Bagheri"
-    },
-    {
-      "title": "Natural Language Query to Configuration for Retrieval Agents",
-      "citation_count": 0,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:u9iWguZQMMsC",
-      "authors": "MZ Pan, N Arabzadeh, M Jacob, F Kazhamiaka, E Choukse, M Zaharia"
+      "title": "Query Performance Prediction Through Retrieval Coherency.",
+      "citation_count": 29,
+      "year": "2021",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:WF5omc3nYNoC",
+      "authors": "N Arabzadeh, A Bigdeli, M Zihayat, E Bagheri"
     },
     {
       "title": "Vis-trec: A system for the in-depth analysis of trec_eval results",
@@ -723,7 +737,7 @@
     },
     {
       "title": "Neural embedding-based metrics for pre-retrieval query performance prediction",
-      "citation_count": 34,
+      "citation_count": 35,
       "year": "2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:IjCSPb-OGe4C",
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
@@ -757,6 +771,13 @@
       "authors": "N Arabzadeh, H Fani, F Zarrinkalam, A Navivala, E Bagheri"
     },
     {
+      "title": "Query Expansion Revisited: From Classical Retrieval to Agentic Search",
+      "citation_count": 0,
+      "year": "",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:4fKUyHm3Qg0C",
+      "authors": "A Bigdeli, RH Rad, HS Le, Y Lei, A Yates, N Arabzadeh, CLA Clarke, ..."
+    },
+    {
       "title": "Towards Automatically Optimizing Retrieval Augmented AI Systems",
       "citation_count": 0,
       "year": "",
@@ -765,19 +786,13 @@
     },
     {
       "title": "Restructuring the Corpus Makes RAG Work for Math",
-      "citation_count": 0,
+      "citation_count": 1,
       "year": "",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
       "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
     }
   ],
   "history": [
-    {
-      "date": "2026-03-25T13:22:47.263721+00:00",
-      "total_citations": 1498,
-      "h_index": 23,
-      "i10_index": 47
-    },
     {
       "date": "2026-03-25T19:02:53.469358+00:00",
       "total_citations": 1498,
@@ -2959,6 +2974,12 @@
     {
       "date": "2026-09-17T08:30:58.406150+00:00",
       "total_citations": 2041,
+      "h_index": 25,
+      "i10_index": 56
+    },
+    {
+      "date": "2026-09-18T08:05:45.402674+00:00",
+      "total_citations": 2057,
       "h_index": 25,
       "i10_index": 56
     }
