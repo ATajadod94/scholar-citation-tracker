@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2057,
+  "total_citations": 2060,
   "h_index": 25,
   "i10_index": 56,
-  "last_checked": "2026-09-19T07:55:32.021669+00:00",
+  "last_checked": "2026-09-20T08:25:57.790466+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -16,7 +16,7 @@
     },
     {
       "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
-      "citation_count": 95,
+      "citation_count": 96,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
       "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
@@ -218,6 +218,13 @@
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
+      "title": "Transforming human-centered ai collaboration: Redefining embodied agents capabilities through interactive grounded language instructions",
+      "citation_count": 21,
+      "year": "2023",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:L8Ckcad2t8MC",
+      "authors": "S Mohanty, N Arabzadeh, J Kiseleva, A Zholus, M Teruel, A Awadallah, ..."
+    },
+    {
       "title": "Geometric estimation of specificity within embedding spaces",
       "citation_count": 21,
       "year": "2019",
@@ -225,11 +232,11 @@
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
     },
     {
-      "title": "Transforming human-centered ai collaboration: Redefining embodied agents capabilities through interactive grounded language instructions",
+      "title": "Estimating query performance through rich contextualized query representations",
       "citation_count": 20,
-      "year": "2023",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:L8Ckcad2t8MC",
-      "authors": "S Mohanty, N Arabzadeh, J Kiseleva, A Zholus, M Teruel, A Awadallah, ..."
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:r0BpntZqJG4C",
+      "authors": "S Ebrahimi, M Khodabakhsh, N Arabzadeh, E Bagheri"
     },
     {
       "title": "Report on the search futures workshop at ECIR 2024",
@@ -237,13 +244,6 @@
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:J_g5lzvAfSwC",
       "authors": "L Azzopardi, CLA Clarke, P Kantor, B Mitra, JR Trippas, Z Ren, ..."
-    },
-    {
-      "title": "Estimating query performance through rich contextualized query representations",
-      "citation_count": 19,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:r0BpntZqJG4C",
-      "authors": "S Ebrahimi, M Khodabakhsh, N Arabzadeh, E Bagheri"
     },
     {
       "title": "Bias-aware Fair Neural Ranking for Addressing Stereotypical Gender Biases.",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-21T14:03:16.786128+00:00",
-      "total_citations": 1949,
-      "h_index": 26,
-      "i10_index": 55
-    },
     {
       "date": "2026-07-21T19:37:35.470661+00:00",
       "total_citations": 1953,
@@ -898,7 +892,16 @@
       "total_citations": 2057,
       "h_index": 25,
       "i10_index": 56
+    },
+    {
+      "date": "2026-09-20T08:25:57.790466+00:00",
+      "total_citations": 2060,
+      "h_index": 25,
+      "i10_index": 56
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 3,
+    "articles_count": 4
+  }
 }
