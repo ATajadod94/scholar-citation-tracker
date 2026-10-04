@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-10-03T08:59:38.469562+00:00",
-  "total_citations": 2107,
+  "last_checked": "2026-10-04T09:31:03.936540+00:00",
+  "total_citations": 2108,
   "h_index": 26,
   "i10_index": 57,
   "articles": [
@@ -421,6 +421,13 @@
       "authors": "N Arabzadeh, E Bagheri"
     },
     {
+      "title": "Addressing gender-related performance disparities in neural rankers",
+      "citation_count": 9,
+      "year": "2022",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ULOm3_A8WrAC",
+      "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
+    },
+    {
       "title": "QueryGym: A Toolkit for Reproducible LLM-Based Query Reformulation",
       "citation_count": 8,
       "year": "2026",
@@ -447,13 +454,6 @@
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:2P1L_qKh6hAC",
       "authors": "A Bigdeli, N Arabzadeh, E Bagheri, CLA Clarke"
-    },
-    {
-      "title": "Addressing gender-related performance disparities in neural rankers",
-      "citation_count": 8,
-      "year": "2022",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ULOm3_A8WrAC",
-      "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
     },
     {
       "title": "Empra: Embedding perturbation rank attack against neural ranking models",
@@ -835,12 +835,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-03-29T13:06:49.554551+00:00",
-      "total_citations": 1510,
-      "h_index": 23,
-      "i10_index": 48
-    },
     {
       "date": "2026-04-09T02:46:43.046924+00:00",
       "total_citations": 1550,
@@ -3022,6 +3016,12 @@
     {
       "date": "2026-10-03T08:59:38.469562+00:00",
       "total_citations": 2107,
+      "h_index": 26,
+      "i10_index": 57
+    },
+    {
+      "date": "2026-10-04T09:31:03.936540+00:00",
+      "total_citations": 2108,
       "h_index": 26,
       "i10_index": 57
     }
