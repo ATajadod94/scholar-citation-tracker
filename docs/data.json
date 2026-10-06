@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2114,
+  "total_citations": 2115,
   "h_index": 26,
   "i10_index": 57,
-  "last_checked": "2026-10-05T10:12:24.232663+00:00",
+  "last_checked": "2026-10-06T09:57:04.038183+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -239,18 +239,18 @@
       "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
     },
     {
+      "title": "exHarmony: authorship and citations for benchmarking the reviewer assignment problem",
+      "citation_count": 20,
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
+      "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
+    },
+    {
       "title": "Report on the search futures workshop at ECIR 2024",
       "citation_count": 20,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:J_g5lzvAfSwC",
       "authors": "L Azzopardi, CLA Clarke, P Kantor, B Mitra, JR Trippas, Z Ren, ..."
-    },
-    {
-      "title": "exHarmony: authorship and citations for benchmarking the reviewer assignment problem",
-      "citation_count": 19,
-      "year": "2025",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:SeFeTyx0c_EC",
-      "authors": "S Ebrahimi, S Salamat, N Arabzadeh, M Bashari, E Bagheri"
     },
     {
       "title": "Bias-aware Fair Neural Ranking for Addressing Stereotypical Gender Biases.",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-10T02:07:24.672005+00:00",
-      "total_citations": 1975,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-10T07:48:53.301411+00:00",
       "total_citations": 1975,
@@ -898,10 +892,16 @@
       "total_citations": 2114,
       "h_index": 26,
       "i10_index": 57
+    },
+    {
+      "date": "2026-10-06T09:57:04.038183+00:00",
+      "total_citations": 2115,
+      "h_index": 26,
+      "i10_index": 57
     }
   ],
   "latest_diff": {
-    "gained": 6,
-    "articles_count": 6
+    "gained": 1,
+    "articles_count": 2
   }
 }
