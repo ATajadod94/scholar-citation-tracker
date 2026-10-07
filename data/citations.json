@@ -2,7 +2,7 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-10-06T09:57:04.038183+00:00",
+  "last_checked": "2026-10-07T10:02:40.551757+00:00",
   "total_citations": 2115,
   "h_index": 26,
   "i10_index": 57,
@@ -706,148 +706,9 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:8AbLer7MMksC",
       "authors": "S Amirshahi, S Ebrahimi, HS Le, N Arabzadeh, E Bagheri"
-    },
-    {
-      "title": "WaterlooClarke at the TREC 2021 Conversational Assistant Track.",
-      "citation_count": 4,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:5nxA0vEk-isC",
-      "authors": "X Yan, CLA Clarke, N Arabzadeh"
-    },
-    {
-      "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
-      "citation_count": 96,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
-      "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
-    },
-    {
-      "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
-      "citation_count": 91,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:Se3iqnhoufwC",
-      "authors": "N Arabzadeh, X Yan, CLA Clarke"
-    },
-    {
-      "title": "Ms marco chameleons: challenging the ms marco leaderboard with extremely obstinate queries",
-      "citation_count": 33,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:roLk4NBRz8UC",
-      "authors": "N Arabzadeh, B Mitra, E Bagheri"
-    },
-    {
-      "title": "On the orthogonality of bias and utility in ad hoc retrieval",
-      "citation_count": 28,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:eQOLeE2rZwMC",
-      "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Exploring gender biases in information retrieval relevance judgement datasets",
-      "citation_count": 33,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:ufrVoPGSRksC",
-      "authors": "A Bigdeli, N Arabzadeh, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised Query Reformulation",
-      "citation_count": 32,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC",
-      "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Query Performance Prediction Through Retrieval Coherency.",
-      "citation_count": 29,
-      "year": "2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:WF5omc3nYNoC",
-      "authors": "N Arabzadeh, A Bigdeli, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Vis-trec: A system for the in-depth analysis of trec_eval results",
-      "citation_count": 4,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:zYLM7Y9cAGgC",
-      "authors": "M Tamannaee, N Arabzadeh, E Bagheri"
-    },
-    {
-      "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
-      "citation_count": 54,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:UeHWp8X0CEIC",
-      "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, F Al-Obeidat, E Bagheri"
-    },
-    {
-      "title": "Neural embedding-based metrics for pre-retrieval query performance prediction",
-      "citation_count": 35,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:IjCSPb-OGe4C",
-      "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
-    },
-    {
-      "title": "WaterlooClarke at the Trec 2020 Conversational Assistant Track",
-      "citation_count": 0,
-      "year": "2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:YsMSGLbcyi4C",
-      "authors": "N Arabzadeh, CLA Clarke"
-    },
-    {
-      "title": "Geometric estimation of specificity within embedding spaces",
-      "citation_count": 21,
-      "year": "2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:qjMakFHDy7sC",
-      "authors": "N Arabzadeh, F Zarrinkalam, J Jovanovic, E Bagheri"
-    },
-    {
-      "title": "Entity Retrieval Docker Image for OSIRRC at SIGIR 2019.",
-      "citation_count": 0,
-      "year": "2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:d1gkVwhDpl0C",
-      "authors": "N Arabzadeh"
-    },
-    {
-      "title": "Causal dependencies for future interest prediction on Twitter",
-      "citation_count": 14,
-      "year": "2018",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:u-x6o8ySG0sC",
-      "authors": "N Arabzadeh, H Fani, F Zarrinkalam, A Navivala, E Bagheri"
-    },
-    {
-      "title": "Reliable Evaluation of AI Assisted Peer Review",
-      "citation_count": 0,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:sSrBHYA8nusC",
-      "authors": "N Arabzadeh, S Ebrahimi, S Amirshahi, SM Hosseini, HS Le, M Bashari, ..."
-    },
-    {
-      "title": "Query Expansion Revisited: From Classical Retrieval to Agentic Search",
-      "citation_count": 0,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:4fKUyHm3Qg0C",
-      "authors": "A Bigdeli, RH Rad, HS Le, Y Lei, A Yates, N Arabzadeh, CLA Clarke, ..."
-    },
-    {
-      "title": "Towards Automatically Optimizing Retrieval Augmented AI Systems",
-      "citation_count": 0,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:NhqRSupF_l8C",
-      "authors": "MZ Pan, N Arabzadeh, M Jacob, F Kazhamiaka, E Choukse, M Zaharia"
-    },
-    {
-      "title": "Restructuring the Corpus Makes RAG Work for Math",
-      "citation_count": 1,
-      "year": "",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=R_1o4RIAAAAJ:EUQCXRtRnyEC",
-      "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
     }
   ],
   "history": [
-    {
-      "date": "2026-04-09T13:54:59.357785+00:00",
-      "total_citations": 1550,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-09T19:15:38.779223+00:00",
       "total_citations": 0,
@@ -3028,6 +2889,12 @@
     },
     {
       "date": "2026-10-06T09:57:04.038183+00:00",
+      "total_citations": 2115,
+      "h_index": 26,
+      "i10_index": 57
+    },
+    {
+      "date": "2026-10-07T10:02:40.551757+00:00",
       "total_citations": 2115,
       "h_index": 26,
       "i10_index": 57
