@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-10-10T09:37:07.763595+00:00",
-  "total_citations": 2120,
+  "last_checked": "2026-10-11T09:49:38.807938+00:00",
+  "total_citations": 2122,
   "h_index": 26,
   "i10_index": 57,
   "articles": [
@@ -37,7 +37,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 86,
+      "citation_count": 87,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -631,6 +631,13 @@
       "authors": "N Arabzadeh, W Ma, S Min, M Zaharia"
     },
     {
+      "title": "Multi-Agent Transactive Memory",
+      "citation_count": 1,
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:Tiz5es2fbqcC",
+      "authors": "TE Kim, X He, D Jain, A Agrawal, N Arabzadeh, F Diaz"
+    },
+    {
       "title": "ADORE: Iterative Query Expansion with Retrieval-Grounded Relevance Feedback",
       "citation_count": 1,
       "year": "2026",
@@ -699,13 +706,6 @@
       "year": "2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:5Ul4iDaHHb8C",
       "authors": "A Bigdeli, RH Rad, N Arabzadeh, S Ebrahimi, HS Le, CLA Clarke, ..."
-    },
-    {
-      "title": "Judging a Review by its Cover: A Reliability Analysis of LLM-based Peer Review Evaluation Metrics",
-      "citation_count": 0,
-      "year": "2026",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:8AbLer7MMksC",
-      "authors": "S Amirshahi, S Ebrahimi, HS Le, N Arabzadeh, E Bagheri"
     },
     {
       "title": "WaterlooClarke at the TREC 2021 Conversational Assistant Track.",
@@ -842,12 +842,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-10T13:22:11.352190+00:00",
-      "total_citations": 1558,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-10T19:01:51.933788+00:00",
       "total_citations": 1558,
@@ -3029,6 +3023,12 @@
     {
       "date": "2026-10-10T09:37:07.763595+00:00",
       "total_citations": 2120,
+      "h_index": 26,
+      "i10_index": 57
+    },
+    {
+      "date": "2026-10-11T09:49:38.807938+00:00",
+      "total_citations": 2122,
       "h_index": 26,
       "i10_index": 57
     }
