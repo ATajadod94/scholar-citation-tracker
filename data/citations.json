@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-10-14T08:32:06.385537+00:00",
-  "total_citations": 2134,
+  "last_checked": "2026-10-15T08:07:11.455933+00:00",
+  "total_citations": 2136,
   "h_index": 26,
   "i10_index": 57,
   "articles": [
@@ -37,7 +37,7 @@
     },
     {
       "title": "Measuring agents in production",
-      "citation_count": 90,
+      "citation_count": 91,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
       "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
@@ -176,18 +176,18 @@
       "authors": "A Bigdeli, N Arabzadeh, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
+      "title": "Assessing and verifying task utility in LLM-powered applications",
+      "citation_count": 27,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
+      "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
+    },
+    {
       "title": "Adapting standard retrieval benchmarks to evaluate generated answers",
       "citation_count": 27,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:_Qo2XoVZTnwC",
       "authors": "N Arabzadeh, A Bigdeli, CLA Clarke"
-    },
-    {
-      "title": "Assessing and verifying task utility in LLM-powered applications",
-      "citation_count": 26,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
-      "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
     },
     {
       "title": "Query performance prediction: From fundamentals to advanced techniques",
@@ -849,12 +849,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-11T13:09:46.069789+00:00",
-      "total_citations": 1559,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-11T18:53:51.768295+00:00",
       "total_citations": 0,
@@ -3036,6 +3030,12 @@
     {
       "date": "2026-10-14T08:32:06.385537+00:00",
       "total_citations": 2134,
+      "h_index": 26,
+      "i10_index": 57
+    },
+    {
+      "date": "2026-10-15T08:07:11.455933+00:00",
+      "total_citations": 2136,
       "h_index": 26,
       "i10_index": 57
     }
