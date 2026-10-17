@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2136,
+  "total_citations": 2137,
   "h_index": 26,
   "i10_index": 57,
-  "last_checked": "2026-10-16T08:00:22.492841+00:00",
+  "last_checked": "2026-10-17T07:38:11.264085+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Retrieving supporting evidence for generative question answering",
-      "citation_count": 86,
+      "citation_count": 87,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:TQgYirikUcIC",
       "authors": "S Huo, N Arabzadeh, C Clarke"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-12T19:05:59.063039+00:00",
-      "total_citations": 1980,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-13T02:21:20.804799+00:00",
       "total_citations": 1980,
@@ -898,7 +892,16 @@
       "total_citations": 2136,
       "h_index": 26,
       "i10_index": 57
+    },
+    {
+      "date": "2026-10-17T07:38:11.264085+00:00",
+      "total_citations": 2137,
+      "h_index": 26,
+      "i10_index": 57
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 1,
+    "articles_count": 2
+  }
 }
