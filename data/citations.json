@@ -2,8 +2,8 @@
   "scholar_id": "R_1o4RIAAAAJ",
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
-  "last_checked": "2026-10-21T08:24:15.613011+00:00",
-  "total_citations": 2146,
+  "last_checked": "2026-10-22T08:26:44.011101+00:00",
+  "total_citations": 2147,
   "h_index": 26,
   "i10_index": 57,
   "articles": [
@@ -107,7 +107,7 @@
     },
     {
       "title": "Deepscholar-bench: A live benchmark and automated evaluation for generative research synthesis",
-      "citation_count": 38,
+      "citation_count": 39,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:cFHS6HbyZ2cC",
       "authors": "L Patel, N Arabzadeh, H Gupta, A Sundar, I Stoica, M Zaharia, C Guestrin"
@@ -849,12 +849,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-04-13T08:11:58.832578+00:00",
-      "total_citations": 1568,
-      "h_index": 24,
-      "i10_index": 50
-    },
     {
       "date": "2026-04-13T13:51:24.791228+00:00",
       "total_citations": 1568,
@@ -3036,6 +3030,12 @@
     {
       "date": "2026-10-21T08:24:15.613011+00:00",
       "total_citations": 2146,
+      "h_index": 26,
+      "i10_index": 57
+    },
+    {
+      "date": "2026-10-22T08:26:44.011101+00:00",
+      "total_citations": 2147,
       "h_index": 26,
       "i10_index": 57
     }
