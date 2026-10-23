@@ -2,14 +2,14 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2147,
+  "total_citations": 2151,
   "h_index": 26,
   "i10_index": 57,
-  "last_checked": "2026-10-22T08:26:44.011101+00:00",
+  "last_checked": "2026-10-23T08:23:07.146700+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 147,
+      "citation_count": 146,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -162,18 +162,18 @@
       "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
     },
     {
+      "title": "Assessing and verifying task utility in LLM-powered applications",
+      "citation_count": 29,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
+      "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
+    },
+    {
       "title": "Query Performance Prediction Through Retrieval Coherency.",
       "citation_count": 29,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:WF5omc3nYNoC",
       "authors": "N Arabzadeh, A Bigdeli, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Assessing and verifying task utility in LLM-powered applications",
-      "citation_count": 28,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
-      "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
     },
     {
       "title": "On the orthogonality of bias and utility in ad hoc retrieval",
@@ -190,6 +190,13 @@
       "authors": "N Arabzadeh, A Bigdeli, CLA Clarke"
     },
     {
+      "title": "Gender fairness in information retrieval systems",
+      "citation_count": 26,
+      "year": "2022",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:Zph67rFs4hoC",
+      "authors": "A Bigdeli, N Arabzadeh, S SeyedSalehi, M Zihayat, E Bagheri"
+    },
+    {
       "title": "Query performance prediction: From fundamentals to advanced techniques",
       "citation_count": 25,
       "year": "2024",
@@ -202,13 +209,6 @@
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:kNdYIx-mwKoC",
       "authors": "J Kiseleva, A Skrynnik, A Zholus, S Mohanty, N Arabzadeh, MA Côté, ..."
-    },
-    {
-      "title": "Gender fairness in information retrieval systems",
-      "citation_count": 24,
-      "year": "2022",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:Zph67rFs4hoC",
-      "authors": "A Bigdeli, N Arabzadeh, S SeyedSalehi, M Zihayat, E Bagheri"
     },
     {
       "title": "A light-weight strategy for restraining gender biases in neural rankers",
@@ -253,18 +253,18 @@
       "authors": "L Azzopardi, CLA Clarke, P Kantor, B Mitra, JR Trippas, Z Ren, ..."
     },
     {
+      "title": "Query performance prediction: techniques and applications in modern information retrieval",
+      "citation_count": 18,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ldfaerwXgEUC",
+      "authors": "N Arabzadeh, C Meng, M Aliannejadi, E Bagheri"
+    },
+    {
       "title": "Bias-aware Fair Neural Ranking for Addressing Stereotypical Gender Biases.",
       "citation_count": 18,
       "year": "2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:0EnyYjriUFMC",
       "authors": "S Seyedsalehi, A Bigdeli, N Arabzadeh, B Mitra, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Query performance prediction: techniques and applications in modern information retrieval",
-      "citation_count": 17,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ldfaerwXgEUC",
-      "authors": "N Arabzadeh, C Meng, M Aliannejadi, E Bagheri"
     },
     {
       "title": "Collecting interactive multi-modal datasets for grounded language understanding",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-14T07:37:49.176945+00:00",
-      "total_citations": 1988,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-14T13:15:48.803576+00:00",
       "total_citations": 1988,
@@ -898,10 +892,16 @@
       "total_citations": 2147,
       "h_index": 26,
       "i10_index": 57
+    },
+    {
+      "date": "2026-10-23T08:23:07.146700+00:00",
+      "total_citations": 2151,
+      "h_index": 26,
+      "i10_index": 57
     }
   ],
   "latest_diff": {
-    "gained": 1,
-    "articles_count": 2
+    "gained": 4,
+    "articles_count": 5
   }
 }
