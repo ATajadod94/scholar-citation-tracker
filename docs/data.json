@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2176,
+  "total_citations": 2181,
   "h_index": 27,
   "i10_index": 58,
-  "last_checked": "2026-11-04T10:41:00.066624+00:00",
+  "last_checked": "2026-11-05T10:35:25.583203+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -15,18 +15,18 @@
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
     },
     {
+      "title": "Measuring agents in production",
+      "citation_count": 101,
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
+      "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
+    },
+    {
       "title": "BERT-QPP: contextualized pre-trained transformers for query performance prediction",
       "citation_count": 97,
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:hqOjcs7Dif8C",
       "authors": "N Arabzadeh, M Khodabakhsh, E Bagheri"
-    },
-    {
-      "title": "Measuring agents in production",
-      "citation_count": 96,
-      "year": "2025",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:b0M2c_1WBrUC",
-      "authors": "MZ Pan, N Arabzadeh, R Cogo, Y Zhu, A Xiong, LA Agrawal, H Mao, ..."
     },
     {
       "title": "Predicting efficiency/effectiveness trade-offs for dense vs. sparse retrieval strategy selection",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-17T12:51:58.432771+00:00",
-      "total_citations": 1995,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-17T18:45:24.563998+00:00",
       "total_citations": 1995,
@@ -898,7 +892,16 @@
       "total_citations": 2176,
       "h_index": 27,
       "i10_index": 58
+    },
+    {
+      "date": "2026-11-05T10:35:25.583203+00:00",
+      "total_citations": 2181,
+      "h_index": 27,
+      "i10_index": 58
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 5,
+    "articles_count": 2
+  }
 }
