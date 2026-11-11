@@ -95,6 +95,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
+      - name: Wait for artifact to become visible
+        # deploy-pages lists artifacts via the API; on 2026-11-11 it ran in the
+        # same second the upload finished and found zero artifacts (run 815).
+        # A short pause avoids the eventual-consistency race.
+        run: sleep 20
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
