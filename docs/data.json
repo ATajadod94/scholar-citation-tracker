@@ -5,7 +5,7 @@
   "total_citations": 2226,
   "h_index": 27,
   "i10_index": 59,
-  "last_checked": "2026-11-12T10:48:25.613095+00:00",
+  "last_checked": "2026-11-13T10:44:17.574655+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-19T18:40:09.495402+00:00",
-      "total_citations": 1996,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-20T01:26:54.956959+00:00",
       "total_citations": 1996,
@@ -895,6 +889,12 @@
     },
     {
       "date": "2026-11-12T10:48:25.613095+00:00",
+      "total_citations": 2226,
+      "h_index": 27,
+      "i10_index": 59
+    },
+    {
+      "date": "2026-11-13T10:44:17.574655+00:00",
       "total_citations": 2226,
       "h_index": 27,
       "i10_index": 59
