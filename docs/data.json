@@ -2,10 +2,10 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2239,
+  "total_citations": 2241,
   "h_index": 27,
   "i10_index": 59,
-  "last_checked": "2026-11-19T11:20:28.472244+00:00",
+  "last_checked": "2026-11-20T11:08:28.284318+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
@@ -64,18 +64,18 @@
       "authors": "C Meng, N Arabzadeh, M Aliannejadi, M De Rijke"
     },
     {
+      "title": "Generative information retrieval evaluation",
+      "citation_count": 63,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
+      "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
+    },
+    {
       "title": "Ranked list truncation for large language model-based re-ranking",
       "citation_count": 63,
       "year": "2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
       "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
-    },
-    {
-      "title": "Generative information retrieval evaluation",
-      "citation_count": 62,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:GnPB-g6toBAC",
-      "authors": "M Alaofi, N Arabzadeh, CLA Clarke, M Sanderson"
     },
     {
       "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
@@ -148,6 +148,13 @@
       "authors": "N Arabzadeh, M Seifikar, CLA Clarke"
     },
     {
+      "title": "Assessing and verifying task utility in LLM-powered applications",
+      "citation_count": 32,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
+      "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
+    },
+    {
       "title": "A comparison of methods for evaluating generative ir",
       "citation_count": 32,
       "year": "2024",
@@ -160,13 +167,6 @@
       "year": "2021",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:_FxGoFyzp5QC",
       "authors": "N Arabzadeh, A Bigdeli, S Seyedsalehi, M Zihayat, E Bagheri"
-    },
-    {
-      "title": "Assessing and verifying task utility in LLM-powered applications",
-      "citation_count": 31,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:ns9cj8rnVeAC",
-      "authors": "N Arabzadeh, S Huo, N Mehta, Q Wu, C Wang, A Hassan, CLA Clarke, ..."
     },
     {
       "title": "Query Performance Prediction Through Retrieval Coherency.",
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-23T03:54:00.951413+00:00",
-      "total_citations": 2000,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-24T03:57:59.320343+00:00",
       "total_citations": 2001,
@@ -898,7 +892,16 @@
       "total_citations": 2239,
       "h_index": 27,
       "i10_index": 59
+    },
+    {
+      "date": "2026-11-20T11:08:28.284318+00:00",
+      "total_citations": 2241,
+      "h_index": 27,
+      "i10_index": 59
     }
   ],
-  "latest_diff": null
+  "latest_diff": {
+    "gained": 2,
+    "articles_count": 4
+  }
 }
