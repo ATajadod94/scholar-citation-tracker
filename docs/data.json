@@ -2,14 +2,14 @@
   "name": "Negar Arabzadeh",
   "affiliation": "UC Berkeley",
   "scholar_url": "https://scholar.google.com/citations?user=R_1o4RIAAAAJ&hl=en",
-  "total_citations": 2252,
+  "total_citations": 2256,
   "h_index": 27,
   "i10_index": 59,
-  "last_checked": "2026-11-24T13:26:42.242623+00:00",
+  "last_checked": "2026-11-25T12:23:11.191363+00:00",
   "articles": [
     {
       "title": "Benchmarking prompt sensitivity in large language models",
-      "citation_count": 154,
+      "citation_count": 155,
       "year": "2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:HoB7MX3m0LUC",
       "authors": "A Razavi, M Soltangheis, N Arabzadeh, S Salamat, M Zihayat, E Bagheri"
@@ -57,18 +57,18 @@
       "authors": "N Arabzadeh, A Vtyurina, X Yan, CLA Clarke"
     },
     {
+      "title": "Ranked list truncation for large language model-based re-ranking",
+      "citation_count": 65,
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
+      "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
+    },
+    {
       "title": "Query performance prediction: From ad-hoc to conversational search",
       "citation_count": 65,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:7PzlFSSx8tAC",
       "authors": "C Meng, N Arabzadeh, M Aliannejadi, M De Rijke"
-    },
-    {
-      "title": "Ranked list truncation for large language model-based re-ranking",
-      "citation_count": 64,
-      "year": "2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:O3NaXMp0MMsC",
-      "authors": "C Meng, N Arabzadeh, A Askari, M Aliannejadi, M De Rijke"
     },
     {
       "title": "Generative information retrieval evaluation",
@@ -114,7 +114,7 @@
     },
     {
       "title": "Noisy perturbations for estimating query difficulty in dense retrievers",
-      "citation_count": 38,
+      "citation_count": 39,
       "year": "2023",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=R_1o4RIAAAAJ&pagesize=100&citation_for_view=R_1o4RIAAAAJ:e5wmG9Sq2KIC",
       "authors": "N Arabzadeh, R Hamidi Rad, M Khodabakhsh, E Bagheri"
@@ -359,12 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-08-28T15:10:35.319880+00:00",
-      "total_citations": 2004,
-      "h_index": 25,
-      "i10_index": 55
-    },
     {
       "date": "2026-08-29T09:53:07.159829+00:00",
       "total_citations": 2006,
@@ -898,10 +892,16 @@
       "total_citations": 2252,
       "h_index": 27,
       "i10_index": 59
+    },
+    {
+      "date": "2026-11-25T12:23:11.191363+00:00",
+      "total_citations": 2256,
+      "h_index": 27,
+      "i10_index": 59
     }
   ],
   "latest_diff": {
-    "gained": 6,
-    "articles_count": 6
+    "gained": 4,
+    "articles_count": 5
   }
 }
