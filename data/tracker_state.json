@@ -1,11 +1,11 @@
 {
-  "last_run_at": "2026-11-27T11:55:17.344488+00:00",
-  "last_success_at": "2026-11-27T11:55:17.344488+00:00",
-  "last_total_citations": 2259,
+  "last_run_at": "2026-11-28T11:30:07.238241+00:00",
+  "last_success_at": "2026-11-28T11:30:07.238241+00:00",
+  "last_total_citations": 2269,
   "consecutive_failures": 0,
-  "total_runs": 101,
-  "total_api_calls": 160,
-  "monthly_api_calls": 44,
+  "total_runs": 102,
+  "total_api_calls": 162,
+  "monthly_api_calls": 46,
   "month": "2026-11",
   "last_error": null
 }
